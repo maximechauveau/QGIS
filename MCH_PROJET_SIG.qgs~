@@ -19,6 +19,9 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
+    <layer-tree-layer name="Transport_Regionaux_Loroux" id="Transport_Regionaux_Loroux_c9e8534f_8024_418b_a252_e53d23f3e84a" checked="Qt::Checked" source="./data/transport/Transport_Regionaux_Loroux.shp" expanded="1" providerKey="ogr">
+      <customproperties/>
+    </layer-tree-layer>
     <layer-tree-layer name="Accidents_Loroux" id="Accidents_Loroux_f872b067_e85e_4c54_96b6_7512453dac50" checked="Qt::Checked" source="./data/accident/Accidents_Loroux.shp" expanded="1" providerKey="ogr">
       <customproperties/>
     </layer-tree-layer>
@@ -90,6 +93,7 @@
       <item>routes_departementales_loroux_3b5e71fd_f7b4_43c0_9354_ade6deb836cb</item>
       <item>224400028_localisation_accidents_sur_routes_departementales_de_loire_atlantique_daaccbf4_5630_4c2f_98a4_2eef792cf44d</item>
       <item>Accidents_Loroux_f872b067_e85e_4c54_96b6_7512453dac50</item>
+      <item>Transport_Regionaux_Loroux_c9e8534f_8024_418b_a252_e53d23f3e84a</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings type="1" intersection-snapping="0" enabled="0" tolerance="12" unit="1" mode="2">
@@ -99,6 +103,7 @@
       <layer-setting units="1" id="accident2_339eaee7_52e9_4688_b560_a18778d3afb3" type="1" enabled="0" tolerance="12"/>
       <layer-setting units="1" id="Lieux_accidents_c8e65701_632a_492e_8a77_202a7f4e344c" type="1" enabled="0" tolerance="12"/>
       <layer-setting units="1" id="ms_PlanCadastralInformatisePCI_Parcelle_044_dc00599f_d8d6_4af8_ae12_3904e689c97a" type="1" enabled="0" tolerance="12"/>
+      <layer-setting units="1" id="Transport_Regionaux_Loroux_c9e8534f_8024_418b_a252_e53d23f3e84a" type="1" enabled="0" tolerance="12"/>
       <layer-setting units="1" id="Accidents_Loroux_f872b067_e85e_4c54_96b6_7512453dac50" type="1" enabled="0" tolerance="12"/>
       <layer-setting units="1" id="fichier_national_aires_covoiturage_2018_consolide_par_blablacar_Sheet1_fbb09cbf_eba3_4d64_bb6f_ecca557c5863" type="1" enabled="0" tolerance="12"/>
       <layer-setting units="1" id="ms_PlanCadastralInformatisePCI_Parcelle_044_9a7d04ca_d388_4025_82b8_5b9a5b26a8ca" type="1" enabled="0" tolerance="12"/>
@@ -113,10 +118,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>-152079.76282129937317222</xmin>
-      <ymin>5973670.08858560491353273</ymin>
-      <xmax>-136459.78032250457908958</xmax>
-      <ymax>5987565.58463691640645266</ymax>
+      <xmin>-155304.52607111536781304</xmin>
+      <ymin>5973409.25496315583586693</ymin>
+      <xmax>-139684.54357232057373039</xmax>
+      <ymax>5987304.75101446732878685</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -135,6 +140,11 @@
   </mapcanvas>
   <projectModels/>
   <legend updateDrawingOrder="true">
+    <legendlayer name="Transport_Regionaux_Loroux" checked="Qt::Checked" showFeatureCount="0" open="true" drawingOrder="-1">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="Transport_Regionaux_Loroux_c9e8534f_8024_418b_a252_e53d23f3e84a" visible="1" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
     <legendlayer name="Accidents_Loroux" checked="Qt::Checked" showFeatureCount="0" open="true" drawingOrder="-1">
       <filegroup hidden="false" open="true">
         <legendlayerfile layerid="Accidents_Loroux_f872b067_e85e_4c54_96b6_7512453dac50" visible="1" isInOverview="0"/>
@@ -2880,6 +2890,272 @@ def my_form_open(dialog, layer, feature):
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer refreshOnNotifyEnabled="0" labelsEnabled="0" styleCategories="AllStyleCategories" simplifyMaxScale="1" type="vector" minScale="1e+08" hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="1" readOnly="0" simplifyDrawingTol="1" simplifyLocal="1" autoRefreshTime="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" geometry="Point" maxScale="0" simplifyAlgorithm="0">
+      <extent>
+        <xmin>-1.36102838659999992</xmin>
+        <ymin>47.22826151089999769</ymin>
+        <xmax>-1.31356619320000001</xmax>
+        <ymax>47.24487898440000322</ymax>
+      </extent>
+      <id>Transport_Regionaux_Loroux_c9e8534f_8024_418b_a252_e53d23f3e84a</id>
+      <datasource>./data/transport/Transport_Regionaux_Loroux.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Transport_Regionaux_Loroux</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="défaut">
+        <map-layer-style name="défaut"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
+        <symbols>
+          <symbol name="0" alpha="1" clip_to_extent="1" type="marker" force_rhr="0">
+            <layer pass="0" enabled="1" locked="0" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="141,90,153,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option type="QString" value=""/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="stop_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="stop_code">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="stop_name">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="stop_desc">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="zone_id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="stop_url">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="location_t">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="parent_sta">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="stop_timez">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wheelchair">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="reseau">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="stop_id" index="0"/>
+        <alias name="" field="stop_code" index="1"/>
+        <alias name="" field="stop_name" index="2"/>
+        <alias name="" field="stop_desc" index="3"/>
+        <alias name="" field="zone_id" index="4"/>
+        <alias name="" field="stop_url" index="5"/>
+        <alias name="" field="location_t" index="6"/>
+        <alias name="" field="parent_sta" index="7"/>
+        <alias name="" field="stop_timez" index="8"/>
+        <alias name="" field="wheelchair" index="9"/>
+        <alias name="" field="reseau" index="10"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="stop_id" expression="" applyOnUpdate="0"/>
+        <default field="stop_code" expression="" applyOnUpdate="0"/>
+        <default field="stop_name" expression="" applyOnUpdate="0"/>
+        <default field="stop_desc" expression="" applyOnUpdate="0"/>
+        <default field="zone_id" expression="" applyOnUpdate="0"/>
+        <default field="stop_url" expression="" applyOnUpdate="0"/>
+        <default field="location_t" expression="" applyOnUpdate="0"/>
+        <default field="parent_sta" expression="" applyOnUpdate="0"/>
+        <default field="stop_timez" expression="" applyOnUpdate="0"/>
+        <default field="wheelchair" expression="" applyOnUpdate="0"/>
+        <default field="reseau" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint field="stop_id" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="stop_code" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="stop_name" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="stop_desc" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="zone_id" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="stop_url" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="location_t" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="parent_sta" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="stop_timez" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="wheelchair" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="reseau" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="stop_id" exp="" desc=""/>
+        <constraint field="stop_code" exp="" desc=""/>
+        <constraint field="stop_name" exp="" desc=""/>
+        <constraint field="stop_desc" exp="" desc=""/>
+        <constraint field="zone_id" exp="" desc=""/>
+        <constraint field="stop_url" exp="" desc=""/>
+        <constraint field="location_t" exp="" desc=""/>
+        <constraint field="parent_sta" exp="" desc=""/>
+        <constraint field="stop_timez" exp="" desc=""/>
+        <constraint field="wheelchair" exp="" desc=""/>
+        <constraint field="reseau" exp="" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
     </maplayer>
     <maplayer refreshOnNotifyEnabled="0" labelsEnabled="0" styleCategories="AllStyleCategories" simplifyMaxScale="1" type="vector" minScale="1e+08" hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="1" readOnly="0" simplifyDrawingTol="1" simplifyLocal="1" autoRefreshTime="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" geometry="Point" maxScale="0" simplifyAlgorithm="0">
       <extent>
@@ -7095,6 +7371,7 @@ def my_form_open(dialog, layer, feature):
     <layer id="routes_departementales_loroux_3b5e71fd_f7b4_43c0_9354_ade6deb836cb"/>
     <layer id="224400028_localisation_accidents_sur_routes_departementales_de_loire_atlantique_daaccbf4_5630_4c2f_98a4_2eef792cf44d"/>
     <layer id="Accidents_Loroux_f872b067_e85e_4c54_96b6_7512453dac50"/>
+    <layer id="Transport_Regionaux_Loroux_c9e8534f_8024_418b_a252_e53d23f3e84a"/>
   </layerorder>
   <properties>
     <Legend>

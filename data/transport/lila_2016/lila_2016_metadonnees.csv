@@ -1,0 +1,26 @@
+id;268
+nom_reseau;lila_2016
+nom_aot_court;CG44
+format;Neptune
+mode;bus
+type_desserte;Service régulier
+type_lieu_arret;ZE_et_LAM
+date_creation;2016-12-08 13:14:22.917499
+date_derniere_miseajour;2016-12-08 15:06:20.912761
+num_version_modele_atc;2
+date_debut_validite;2016-07-06
+date_fin_validite;2017-07-07
+producteur;cg44
+projection;EPSG:2154
+source_indicateurs;Cerema
+date_calcul_indicateurs;2016-12-08 15:06:08.994582
+nb_lignes_tc;30
+nb_ze;1383
+nb_lam;705
+ratio_ze_lam;1.961702
+nb_ze_xy_0;0
+nb_lam_xy_0;0
+nb_lam_coord_ze;47
+exploit_;None
+comment_;None
+nom_aot_officiel;None

@@ -19,6 +19,9 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
+    <layer-tree-layer name="lila_2016_quays" id="lila_2016_quays_444b443f_8eb6_46fc_9625_08971e85891c" checked="Qt::Checked" source="./data/transport/lila_2016/lila_2016_quays.shp" expanded="1" providerKey="ogr">
+      <customproperties/>
+    </layer-tree-layer>
     <layer-tree-layer name="Transport_Regionaux_Loroux" id="Transport_Regionaux_Loroux_c9e8534f_8024_418b_a252_e53d23f3e84a" checked="Qt::Checked" source="./data/transport/Transport_Regionaux_Loroux.shp" expanded="1" providerKey="ogr">
       <customproperties/>
     </layer-tree-layer>
@@ -94,6 +97,7 @@
       <item>224400028_localisation_accidents_sur_routes_departementales_de_loire_atlantique_daaccbf4_5630_4c2f_98a4_2eef792cf44d</item>
       <item>Accidents_Loroux_f872b067_e85e_4c54_96b6_7512453dac50</item>
       <item>Transport_Regionaux_Loroux_c9e8534f_8024_418b_a252_e53d23f3e84a</item>
+      <item>lila_2016_quays_444b443f_8eb6_46fc_9625_08971e85891c</item>
     </custom-order>
   </layer-tree-group>
   <snapping-settings type="1" intersection-snapping="0" enabled="0" tolerance="12" unit="1" mode="2">
@@ -111,6 +115,7 @@
       <layer-setting units="1" id="224400028_communes_de_loire_atlantique_ba797e9b_d05e_4a8e_bc87_d4708ad58a5a" type="1" enabled="0" tolerance="12"/>
       <layer-setting units="1" id="224400028_localisation_accidents_sur_routes_departementales_de_loire_atlantique_daaccbf4_5630_4c2f_98a4_2eef792cf44d" type="1" enabled="0" tolerance="12"/>
       <layer-setting units="1" id="routes_departementales_loroux_3b5e71fd_f7b4_43c0_9354_ade6deb836cb" type="1" enabled="0" tolerance="12"/>
+      <layer-setting units="1" id="lila_2016_quays_444b443f_8eb6_46fc_9625_08971e85891c" type="1" enabled="0" tolerance="12"/>
       <layer-setting units="1" id="224400028_routes_departementales_de_loire_atlantique_f596f236_0707_4df8_97f5_88fbe9a0a7c4" type="1" enabled="0" tolerance="12"/>
     </individual-layer-settings>
   </snapping-settings>
@@ -118,10 +123,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>-153943.39094399925670587</xmin>
-      <ymin>5977887.38726765662431717</ymin>
-      <xmax>-146133.39969460185966454</xmax>
-      <ymax>5984835.13529331237077713</ymax>
+      <xmin>-152067.09171798304305412</xmin>
+      <ymin>5979294.13039995916187763</ymin>
+      <xmax>-148162.09609328434453346</xmax>
+      <ymax>5982768.00441278703510761</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -140,6 +145,11 @@
   </mapcanvas>
   <projectModels/>
   <legend updateDrawingOrder="true">
+    <legendlayer name="lila_2016_quays" checked="Qt::Checked" showFeatureCount="0" open="true" drawingOrder="-1">
+      <filegroup hidden="false" open="true">
+        <legendlayerfile layerid="lila_2016_quays_444b443f_8eb6_46fc_9625_08971e85891c" visible="1" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
     <legendlayer name="Transport_Regionaux_Loroux" checked="Qt::Checked" showFeatureCount="0" open="true" drawingOrder="-1">
       <filegroup hidden="false" open="true">
         <legendlayerfile layerid="Transport_Regionaux_Loroux_c9e8534f_8024_418b_a252_e53d23f3e84a" visible="1" isInOverview="0"/>
@@ -4131,6 +4141,566 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
+    <maplayer refreshOnNotifyEnabled="0" labelsEnabled="0" styleCategories="AllStyleCategories" simplifyMaxScale="1" type="vector" minScale="1e+08" hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="0" readOnly="0" simplifyDrawingTol="1" simplifyLocal="1" autoRefreshTime="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" geometry="Point" maxScale="0" simplifyAlgorithm="0">
+      <extent>
+        <xmin>305120.87948485399829224</xmin>
+        <ymin>6623196.05353634990751743</ymin>
+        <xmax>413920.94156989100156352</xmax>
+        <ymax>6788442.3062789598479867</ymax>
+      </extent>
+      <id>lila_2016_quays_444b443f_8eb6_46fc_9625_08971e85891c</id>
+      <datasource>./data/transport/lila_2016/lila_2016_quays.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>lila_2016_quays</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_0=46.5 +lon_0=3 +lat_1=44 +lat_2=49 +x_0=700000 +y_0=6600000 +ellps=GRS80 +units=m +no_defs</proj4>
+          <srsid>10089</srsid>
+          <srid>310024140</srid>
+          <authid>IGNF:LAMB93</authid>
+          <description>Lambert 93</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>IGNF:ELG037</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minz="0" miny="0" maxz="0" crs="" dimensions="2" maxx="0" maxy="0" minx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="défaut">
+        <map-layer-style name="défaut"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
+        <symbols>
+          <symbol name="0" alpha="1" clip_to_extent="1" type="marker" force_rhr="0">
+            <layer pass="0" enabled="1" locked="0" class="SvgMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="2,3,2,255"/>
+              <prop k="fixedAspectRatio" v="0"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="name" v="transport/transport_bus_stop.svg"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="10"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""/>
+                  <Option name="properties"/>
+                  <Option name="type" type="QString" value="collection"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+        <DiagramCategory sizeScale="3x:0,0,0,0,0,0" minScaleDenominator="0" sizeType="MM" enabled="0" labelPlacementMethod="XHeight" barWidth="5" backgroundColor="#ffffff" diagramOrientation="Up" rotationOffset="270" scaleDependency="Area" width="15" scaleBasedVisibility="0" backgroundAlpha="255" minimumSize="0" penColor="#000000" lineSizeType="MM" penWidth="0" height="15" maxScaleDenominator="1e+08" opacity="1" penAlpha="255" lineSizeScale="3x:0,0,0,0,0,0">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings zIndex="0" dist="0" linePlacementFlags="18" showAll="1" placement="0" obstacle="0" priority="0">
+        <properties>
+          <Option type="Map">
+            <Option name="name" type="QString" value=""/>
+            <Option name="properties"/>
+            <Option name="type" type="QString" value="collection"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="name">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="latitude">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="longitude">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="srsname">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="postalreg_">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="siteref">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="transpmod_">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="gml_pos">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="street">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="wheelchac_">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="privatcod_">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="publiccode">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="descripti_">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="tariffzon_">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="url">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="fournisse_">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="dern_maj">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nbhab_300m">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="min_time">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="max_time">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="amplitude">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nbpas_intr">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nbpas_pnte">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nbpas_crse">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="nbpas_tot">
+          <editWidget type="Range">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias name="" field="id" index="0"/>
+        <alias name="" field="name" index="1"/>
+        <alias name="" field="latitude" index="2"/>
+        <alias name="" field="longitude" index="3"/>
+        <alias name="" field="srsname" index="4"/>
+        <alias name="" field="postalreg_" index="5"/>
+        <alias name="" field="siteref" index="6"/>
+        <alias name="" field="transpmod_" index="7"/>
+        <alias name="" field="gml_pos" index="8"/>
+        <alias name="" field="street" index="9"/>
+        <alias name="" field="wheelchac_" index="10"/>
+        <alias name="" field="privatcod_" index="11"/>
+        <alias name="" field="publiccode" index="12"/>
+        <alias name="" field="descripti_" index="13"/>
+        <alias name="" field="tariffzon_" index="14"/>
+        <alias name="" field="url" index="15"/>
+        <alias name="" field="fournisse_" index="16"/>
+        <alias name="" field="dern_maj" index="17"/>
+        <alias name="" field="nbhab_300m" index="18"/>
+        <alias name="" field="min_time" index="19"/>
+        <alias name="" field="max_time" index="20"/>
+        <alias name="" field="amplitude" index="21"/>
+        <alias name="" field="nbpas_intr" index="22"/>
+        <alias name="" field="nbpas_pnte" index="23"/>
+        <alias name="" field="nbpas_crse" index="24"/>
+        <alias name="" field="nbpas_tot" index="25"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default field="id" expression="" applyOnUpdate="0"/>
+        <default field="name" expression="" applyOnUpdate="0"/>
+        <default field="latitude" expression="" applyOnUpdate="0"/>
+        <default field="longitude" expression="" applyOnUpdate="0"/>
+        <default field="srsname" expression="" applyOnUpdate="0"/>
+        <default field="postalreg_" expression="" applyOnUpdate="0"/>
+        <default field="siteref" expression="" applyOnUpdate="0"/>
+        <default field="transpmod_" expression="" applyOnUpdate="0"/>
+        <default field="gml_pos" expression="" applyOnUpdate="0"/>
+        <default field="street" expression="" applyOnUpdate="0"/>
+        <default field="wheelchac_" expression="" applyOnUpdate="0"/>
+        <default field="privatcod_" expression="" applyOnUpdate="0"/>
+        <default field="publiccode" expression="" applyOnUpdate="0"/>
+        <default field="descripti_" expression="" applyOnUpdate="0"/>
+        <default field="tariffzon_" expression="" applyOnUpdate="0"/>
+        <default field="url" expression="" applyOnUpdate="0"/>
+        <default field="fournisse_" expression="" applyOnUpdate="0"/>
+        <default field="dern_maj" expression="" applyOnUpdate="0"/>
+        <default field="nbhab_300m" expression="" applyOnUpdate="0"/>
+        <default field="min_time" expression="" applyOnUpdate="0"/>
+        <default field="max_time" expression="" applyOnUpdate="0"/>
+        <default field="amplitude" expression="" applyOnUpdate="0"/>
+        <default field="nbpas_intr" expression="" applyOnUpdate="0"/>
+        <default field="nbpas_pnte" expression="" applyOnUpdate="0"/>
+        <default field="nbpas_crse" expression="" applyOnUpdate="0"/>
+        <default field="nbpas_tot" expression="" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint field="id" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="name" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="latitude" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="longitude" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="srsname" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="postalreg_" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="siteref" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="transpmod_" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="gml_pos" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="street" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="wheelchac_" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="privatcod_" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="publiccode" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="descripti_" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="tariffzon_" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="url" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="fournisse_" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="dern_maj" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="nbhab_300m" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="min_time" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="max_time" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="amplitude" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="nbpas_intr" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="nbpas_pnte" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="nbpas_crse" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+        <constraint field="nbpas_tot" exp_strength="0" constraints="0" notnull_strength="0" unique_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint field="id" exp="" desc=""/>
+        <constraint field="name" exp="" desc=""/>
+        <constraint field="latitude" exp="" desc=""/>
+        <constraint field="longitude" exp="" desc=""/>
+        <constraint field="srsname" exp="" desc=""/>
+        <constraint field="postalreg_" exp="" desc=""/>
+        <constraint field="siteref" exp="" desc=""/>
+        <constraint field="transpmod_" exp="" desc=""/>
+        <constraint field="gml_pos" exp="" desc=""/>
+        <constraint field="street" exp="" desc=""/>
+        <constraint field="wheelchac_" exp="" desc=""/>
+        <constraint field="privatcod_" exp="" desc=""/>
+        <constraint field="publiccode" exp="" desc=""/>
+        <constraint field="descripti_" exp="" desc=""/>
+        <constraint field="tariffzon_" exp="" desc=""/>
+        <constraint field="url" exp="" desc=""/>
+        <constraint field="fournisse_" exp="" desc=""/>
+        <constraint field="dern_maj" exp="" desc=""/>
+        <constraint field="nbhab_300m" exp="" desc=""/>
+        <constraint field="min_time" exp="" desc=""/>
+        <constraint field="max_time" exp="" desc=""/>
+        <constraint field="amplitude" exp="" desc=""/>
+        <constraint field="nbpas_intr" exp="" desc=""/>
+        <constraint field="nbpas_pnte" exp="" desc=""/>
+        <constraint field="nbpas_crse" exp="" desc=""/>
+        <constraint field="nbpas_tot" exp="" desc=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig sortOrder="0" sortExpression="" actionWidgetStyle="dropDown">
+        <columns>
+          <column name="id" hidden="0" type="field" width="-1"/>
+          <column name="name" hidden="0" type="field" width="-1"/>
+          <column name="latitude" hidden="0" type="field" width="-1"/>
+          <column name="longitude" hidden="0" type="field" width="-1"/>
+          <column name="srsname" hidden="0" type="field" width="-1"/>
+          <column name="postalreg_" hidden="0" type="field" width="-1"/>
+          <column name="siteref" hidden="0" type="field" width="-1"/>
+          <column name="transpmod_" hidden="0" type="field" width="-1"/>
+          <column name="gml_pos" hidden="0" type="field" width="-1"/>
+          <column name="street" hidden="0" type="field" width="-1"/>
+          <column name="wheelchac_" hidden="0" type="field" width="-1"/>
+          <column name="privatcod_" hidden="0" type="field" width="-1"/>
+          <column name="publiccode" hidden="0" type="field" width="-1"/>
+          <column name="descripti_" hidden="0" type="field" width="-1"/>
+          <column name="tariffzon_" hidden="0" type="field" width="-1"/>
+          <column name="url" hidden="0" type="field" width="-1"/>
+          <column name="fournisse_" hidden="0" type="field" width="-1"/>
+          <column name="dern_maj" hidden="0" type="field" width="-1"/>
+          <column name="nbhab_300m" hidden="0" type="field" width="-1"/>
+          <column name="min_time" hidden="0" type="field" width="-1"/>
+          <column name="max_time" hidden="0" type="field" width="-1"/>
+          <column name="amplitude" hidden="0" type="field" width="-1"/>
+          <column name="nbpas_intr" hidden="0" type="field" width="-1"/>
+          <column name="nbpas_pnte" hidden="0" type="field" width="-1"/>
+          <column name="nbpas_crse" hidden="0" type="field" width="-1"/>
+          <column name="nbpas_tot" hidden="0" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Les formulaires QGIS peuvent avoir une fonction Python qui sera appelée à l'ouverture du formulaire.
+
+Utilisez cette fonction pour ajouter plus de fonctionnalités à vos formulaires.
+
+Entrez le nom de la fonction dans le champ "Fonction d'initialisation Python".
+Voici un exemple à suivre:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+    geom = feature.geometry()
+    control = dialog.findChild(QWidget, "MyLineEdit")
+
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="amplitude" editable="1"/>
+        <field name="dern_maj" editable="1"/>
+        <field name="descripti_" editable="1"/>
+        <field name="fournisse_" editable="1"/>
+        <field name="gml_pos" editable="1"/>
+        <field name="id" editable="1"/>
+        <field name="latitude" editable="1"/>
+        <field name="longitude" editable="1"/>
+        <field name="max_time" editable="1"/>
+        <field name="min_time" editable="1"/>
+        <field name="name" editable="1"/>
+        <field name="nbhab_300m" editable="1"/>
+        <field name="nbpas_crse" editable="1"/>
+        <field name="nbpas_intr" editable="1"/>
+        <field name="nbpas_pnte" editable="1"/>
+        <field name="nbpas_tot" editable="1"/>
+        <field name="postalreg_" editable="1"/>
+        <field name="privatcod_" editable="1"/>
+        <field name="publiccode" editable="1"/>
+        <field name="siteref" editable="1"/>
+        <field name="srsname" editable="1"/>
+        <field name="street" editable="1"/>
+        <field name="tariffzon_" editable="1"/>
+        <field name="transpmod_" editable="1"/>
+        <field name="url" editable="1"/>
+        <field name="wheelchac_" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="amplitude" labelOnTop="0"/>
+        <field name="dern_maj" labelOnTop="0"/>
+        <field name="descripti_" labelOnTop="0"/>
+        <field name="fournisse_" labelOnTop="0"/>
+        <field name="gml_pos" labelOnTop="0"/>
+        <field name="id" labelOnTop="0"/>
+        <field name="latitude" labelOnTop="0"/>
+        <field name="longitude" labelOnTop="0"/>
+        <field name="max_time" labelOnTop="0"/>
+        <field name="min_time" labelOnTop="0"/>
+        <field name="name" labelOnTop="0"/>
+        <field name="nbhab_300m" labelOnTop="0"/>
+        <field name="nbpas_crse" labelOnTop="0"/>
+        <field name="nbpas_intr" labelOnTop="0"/>
+        <field name="nbpas_pnte" labelOnTop="0"/>
+        <field name="nbpas_tot" labelOnTop="0"/>
+        <field name="postalreg_" labelOnTop="0"/>
+        <field name="privatcod_" labelOnTop="0"/>
+        <field name="publiccode" labelOnTop="0"/>
+        <field name="siteref" labelOnTop="0"/>
+        <field name="srsname" labelOnTop="0"/>
+        <field name="street" labelOnTop="0"/>
+        <field name="tariffzon_" labelOnTop="0"/>
+        <field name="transpmod_" labelOnTop="0"/>
+        <field name="url" labelOnTop="0"/>
+        <field name="wheelchac_" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>id</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
     <maplayer refreshOnNotifyEnabled="0" labelsEnabled="0" styleCategories="AllStyleCategories" simplifyMaxScale="1" type="vector" minScale="1e+08" hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="1" readOnly="0" simplifyDrawingTol="1" simplifyLocal="1" autoRefreshTime="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" geometry="Polygon" maxScale="0" simplifyAlgorithm="0">
       <extent>
         <xmin>367113.14962099998956546</xmin>
@@ -7372,6 +7942,7 @@ def my_form_open(dialog, layer, feature):
     <layer id="224400028_localisation_accidents_sur_routes_departementales_de_loire_atlantique_daaccbf4_5630_4c2f_98a4_2eef792cf44d"/>
     <layer id="Accidents_Loroux_f872b067_e85e_4c54_96b6_7512453dac50"/>
     <layer id="Transport_Regionaux_Loroux_c9e8534f_8024_418b_a252_e53d23f3e84a"/>
+    <layer id="lila_2016_quays_444b443f_8eb6_46fc_9625_08971e85891c"/>
   </layerorder>
   <properties>
     <Legend>
