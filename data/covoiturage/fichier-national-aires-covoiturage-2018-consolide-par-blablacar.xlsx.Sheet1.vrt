@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGRVRTDataSource>
+    <OGRVRTLayer name="fichier-national-aires-covoiturage-2018-consolide-par-blablacar-Sheet1">
+        <SrcDataSource relativeToVRT="1">fichier-national-aires-covoiturage-2018-consolide-par-blablacar.xlsx</SrcDataSource>
+        <!--Header=False-->
+        <SrcLayer>Sheet1</SrcLayer>
+        <Field name="Nom du lieu" src="Nom du lieu" type="String"/>
+        <Field name="Adresse" src="Adresse" type="String"/>
+        <Field name="Code postal" src="Code postal" type="String"/>
+        <Field name="Ville" src="Ville" type="String"/>
+        <Field name="Type de parking" src="Type de parking" type="String"/>
+        <Field name="Source" src="Source" type="String"/>
+        <Field name="Places" src="Places" type="Integer"/>
+        <Field name="PMR" src="PMR" type="Integer"/>
+        <Field name="Transport public" src="Transport public" type="String"/>
+        <Field name="Prix" src="Prix" type="String"/>
+        <Field name="Ouverture" src="Ouverture" type="String"/>
+        <Field name="Commentaire" src="Commentaire" type="String"/>
+        <Field name="Proprietaire" src="Proprietaire" type="String"/>
+        <Field name="Lumière" src="Lumière" type="String"/>
+        <Field name="Velo" src="Velo" type="String"/>
+        <GeometryType>wkbPoint</GeometryType>
+        <LayerSRS>EPSG:3857</LayerSRS>
+        <GeometryField encoding="PointFromColumns" x="Longitude" y="Latitude"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>
