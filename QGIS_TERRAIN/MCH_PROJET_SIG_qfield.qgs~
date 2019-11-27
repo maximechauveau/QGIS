@@ -1,0 +1,1906 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="3.4.13-Madeira">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+      <srsid>3857</srsid>
+      <srid>3857</srid>
+      <authid>EPSG:3857</authid>
+      <description>WGS 84 / Pseudo-Mercator</description>
+      <projectionacronym>merc</projectionacronym>
+      <ellipsoidacronym>WGS84</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer expanded="1" name="couche_terrain_polygone" providerKey="ogr" id="couche_terrain_polygone_d571bba7_fbc8_4565_9879_98c4de91e885" checked="Qt::Checked" source="./couche_terrain_polygone.shp">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" name="couche_terrain_ligne" providerKey="ogr" id="couche_terrain_ligne_c619719a_e478_4c4f_a59d_e73b0fea7f95" checked="Qt::Checked" source="./couche_terrain_ligne.shp">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" name="couche_terrain_point" providerKey="ogr" id="couche_terrain_8e70e787_5e71_4b83_8495_22e615388e2a" checked="Qt::Checked" source="./couche_terrain.shp">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" name="fichier-national-aires-covoiturage-2018-consolide-par-blablacar-Sheet1" providerKey="ogr" id="fichier_national_aires_covoiturage_2018_consolide_par_blablacar_Sheet1_fbb09cbf_eba3_4d64_bb6f_ecca557c5863" checked="Qt::Checked" source="../data/covoiturage/fichier-national-aires-covoiturage-2018-consolide-par-blablacar.xlsx.Sheet1.vrt|layerid=0|subset=&quot;Ville&quot;='Le Loroux-Bottereau'">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" name="Le Loroux-Bottereau" providerKey="ogr" id="224400028_communes_de_loire_atlantique_ba797e9b_d05e_4a8e_bc87_d4708ad58a5a" checked="Qt::Checked" source="./224400028_communes-de-loire-atlantique.shp|layerid=0|subset=&quot;nom&quot;='Le Loroux-Bottereau'">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" name="BD ORTHO® 2013 - 44" providerKey="wms" id="BD_ORTHO__2013___44_dc371e63_ec43_4cb1_9878_e92171412e8d" checked="Qt::Unchecked" source="contextualWMSLegend=0&amp;crs=EPSG:3857&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=BDORTHO201344&amp;styles&amp;url=https://carto.geopal.org/cgi-bin/mapserv?">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" name="FranceRaster® 1/2 000 000/FranceRaster® 1/8 000 000/FranceRaster® 1/50 000 Ombrage/FranceRaster® 1/4 000 000/FranceRaster® 1/250 000 avec ombrage/FranceRaster® 1/1 000 000 avec ombrage/FranceRaster® 1/500 000/FranceRaster 1/ 50 000/FranceRaster 1/ 5 000/FranceRaster 1/250 000/FranceRaster 1/20 000/FranceRaster 1/1 000 000/FranceRaster 1/100 000/FranceRaster 1/10 000/FranceRaster 1/2 000" providerKey="wms" id="FranceRaster__1_2_000_000_FranceRaster__1_8_000_000_FranceRaster__1_50_000_Ombrage_FranceRaster__1_4_000_000_FranceRaster__1_250_000_avec_ombrage_FranceRaster__1_1_000_000_avec_ombrage_FranceRaster__1_500_000_FranceRaster_1__50_000_FranceRaster_1__5_000_FranceRaster_1_250_000_FranceRaster_1_20_000_FranceRaster_1_1_000_000_FranceRaster_1_100_000_FranceRaster_1_10_000_FranceRaster_1_2_000_df21bf45_d9f0_4205_80f3_da3a5368c9f4" checked="Qt::Unchecked" source="contextualWMSLegend=0&amp;crs=EPSG:3857&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=FranceRaster1/2000&amp;layers=FranceRaster1/10000&amp;layers=FranceRaster1/100000&amp;layers=FranceRaster1/1000000&amp;layers=FranceRaster1/20000&amp;layers=FranceRaster1/250000&amp;layers=FranceRaster1/5000&amp;layers=FranceRaster1/50000&amp;layers=FranceRaster%C3%82%C2%AE1/500000&amp;layers=FranceRaster%C3%82%C2%AE1/1000000avecombrage&amp;layers=FranceRaster%C3%82%C2%AE1/250000avecombrage&amp;layers=FranceRaster%C3%82%C2%AE1/4000000&amp;layers=FranceRaster%C3%82%C2%AE1/50000Ombrage&amp;layers=FranceRaster%C3%82%C2%AE1/8000000&amp;layers=FranceRaster%C3%82%C2%AE1/2000000&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;url=https://carto.geopal.org/cgi-bin/mapserv?">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" name="OpenStreetMap" providerKey="wms" id="OpenStreetMap_d98b757b_bb13_42c0_b777_623574b8d6bb" checked="Qt::Checked" source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=http://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" name="Fond de carte" providerKey="gdal" id="Fond_de_carte_d0ae8788_49a1_421e_a1a8_f767f111fb11" checked="Qt::Checked" source="./basemap.gpkg">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>OpenStreetMap_d98b757b_bb13_42c0_b777_623574b8d6bb</item>
+      <item>FranceRaster__1_2_000_000_FranceRaster__1_8_000_000_FranceRaster__1_50_000_Ombrage_FranceRaster__1_4_000_000_FranceRaster__1_250_000_avec_ombrage_FranceRaster__1_1_000_000_avec_ombrage_FranceRaster__1_500_000_FranceRaster_1__50_000_FranceRaster_1__5_000_FranceRaster_1_250_000_FranceRaster_1_20_000_FranceRaster_1_1_000_000_FranceRaster_1_100_000_FranceRaster_1_10_000_FranceRaster_1_2_000_df21bf45_d9f0_4205_80f3_da3a5368c9f4</item>
+      <item>BD_ORTHO__2013___44_dc371e63_ec43_4cb1_9878_e92171412e8d</item>
+      <item>fichier_national_aires_covoiturage_2018_consolide_par_blablacar_Sheet1_fbb09cbf_eba3_4d64_bb6f_ecca557c5863</item>
+      <item>224400028_communes_de_loire_atlantique_ba797e9b_d05e_4a8e_bc87_d4708ad58a5a</item>
+      <item>couche_terrain_8e70e787_5e71_4b83_8495_22e615388e2a</item>
+      <item>couche_terrain_ligne_c619719a_e478_4c4f_a59d_e73b0fea7f95</item>
+      <item>couche_terrain_polygone_d571bba7_fbc8_4565_9879_98c4de91e885</item>
+      <item>Fond_de_carte_d0ae8788_49a1_421e_a1a8_f767f111fb11</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings unit="1" tolerance="12" intersection-snapping="0" mode="2" enabled="0" type="1">
+    <individual-layer-settings>
+      <layer-setting tolerance="12" id="couche_terrain_8e70e787_5e71_4b83_8495_22e615388e2a" units="1" enabled="0" type="1"/>
+      <layer-setting tolerance="12" id="couche_terrain_polygone_d571bba7_fbc8_4565_9879_98c4de91e885" units="1" enabled="0" type="1"/>
+      <layer-setting tolerance="12" id="224400028_communes_de_loire_atlantique_ba797e9b_d05e_4a8e_bc87_d4708ad58a5a" units="1" enabled="0" type="1"/>
+      <layer-setting tolerance="12" id="couche_terrain_ligne_c619719a_e478_4c4f_a59d_e73b0fea7f95" units="1" enabled="0" type="1"/>
+      <layer-setting tolerance="12" id="fichier_national_aires_covoiturage_2018_consolide_par_blablacar_Sheet1_fbb09cbf_eba3_4d64_bb6f_ecca557c5863" units="1" enabled="0" type="1"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas name="theMapCanvas" annotationsVisible="1">
+    <units>meters</units>
+    <extent>
+      <xmin>-155748.46400581422494724</xmin>
+      <ymin>5973774.16143081616610289</ymin>
+      <xmax>-140128.4815070194308646</xmax>
+      <ymax>5987669.65748212765902281</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+        <srsid>3857</srsid>
+        <srid>3857</srid>
+        <authid>EPSG:3857</authid>
+        <description>WGS 84 / Pseudo-Mercator</description>
+        <projectionacronym>merc</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" name="couche_terrain_polygone" showFeatureCount="0" open="true" checked="Qt::Checked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="couche_terrain_polygone_d571bba7_fbc8_4565_9879_98c4de91e885" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="couche_terrain_ligne" showFeatureCount="0" open="true" checked="Qt::Checked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="couche_terrain_ligne_c619719a_e478_4c4f_a59d_e73b0fea7f95" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="couche_terrain_point" showFeatureCount="0" open="true" checked="Qt::Checked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="couche_terrain_8e70e787_5e71_4b83_8495_22e615388e2a" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="fichier-national-aires-covoiturage-2018-consolide-par-blablacar-Sheet1" showFeatureCount="0" open="true" checked="Qt::Checked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="fichier_national_aires_covoiturage_2018_consolide_par_blablacar_Sheet1_fbb09cbf_eba3_4d64_bb6f_ecca557c5863" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="Le Loroux-Bottereau" showFeatureCount="0" open="true" checked="Qt::Checked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="224400028_communes_de_loire_atlantique_ba797e9b_d05e_4a8e_bc87_d4708ad58a5a" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="BD ORTHO® 2013 - 44" showFeatureCount="0" open="true" checked="Qt::Unchecked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="BD_ORTHO__2013___44_dc371e63_ec43_4cb1_9878_e92171412e8d" isInOverview="0" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="FranceRaster® 1/2 000 000/FranceRaster® 1/8 000 000/FranceRaster® 1/50 000 Ombrage/FranceRaster® 1/4 000 000/FranceRaster® 1/250 000 avec ombrage/FranceRaster® 1/1 000 000 avec ombrage/FranceRaster® 1/500 000/FranceRaster 1/ 50 000/FranceRaster 1/ 5 000/FranceRaster 1/250 000/FranceRaster 1/20 000/FranceRaster 1/1 000 000/FranceRaster 1/100 000/FranceRaster 1/10 000/FranceRaster 1/2 000" showFeatureCount="0" open="true" checked="Qt::Unchecked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="FranceRaster__1_2_000_000_FranceRaster__1_8_000_000_FranceRaster__1_50_000_Ombrage_FranceRaster__1_4_000_000_FranceRaster__1_250_000_avec_ombrage_FranceRaster__1_1_000_000_avec_ombrage_FranceRaster__1_500_000_FranceRaster_1__50_000_FranceRaster_1__5_000_FranceRaster_1_250_000_FranceRaster_1_20_000_FranceRaster_1_1_000_000_FranceRaster_1_100_000_FranceRaster_1_10_000_FranceRaster_1_2_000_df21bf45_d9f0_4205_80f3_da3a5368c9f4" isInOverview="0" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="OpenStreetMap" showFeatureCount="0" open="true" checked="Qt::Checked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="OpenStreetMap_d98b757b_bb13_42c0_b777_623574b8d6bb" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" name="Fond de carte" showFeatureCount="0" open="true" checked="Qt::Checked">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="Fond_de_carte_d0ae8788_49a1_421e_a1a8_f767f111fb11" isInOverview="0" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <projectlayers>
+    <maplayer autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" simplifyMaxScale="1" labelsEnabled="0" readOnly="0" refreshOnNotifyEnabled="0" simplifyLocal="1" refreshOnNotifyMessage="" simplifyDrawingHints="1" minScale="1e+08" autoRefreshTime="0" type="vector" simplifyAlgorithm="0" simplifyDrawingTol="1" geometry="Polygon" maxScale="0">
+      <extent>
+        <xmin>-1.40162702981184406</xmin>
+        <ymin>47.1953955692631979</ymin>
+        <xmax>-1.25279081969937911</xmax>
+        <ymax>47.26962143472289313</ymax>
+      </extent>
+      <id>224400028_communes_de_loire_atlantique_ba797e9b_d05e_4a8e_bc87_d4708ad58a5a</id>
+      <datasource>./224400028_communes-de-loire-atlantique.shp|layerid=0|subset="nom"='Le Loroux-Bottereau'</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Le Loroux-Bottereau</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxx="0" miny="0" maxy="0" crs="" maxz="0" dimensions="2" minz="0" minx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="défaut">
+        <map-layer-style name="défaut"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" name="0" force_rhr="0" type="fill" clip_to_extent="1">
+            <layer locked="0" class="SimpleFill" pass="0" enabled="1">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="color" v="145,82,45,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="1"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="no"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="no_action" key="QFieldSync/action"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory penWidth="0" diagramOrientation="Up" rotationOffset="270" minScaleDenominator="0" penAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" height="15" maxScaleDenominator="1e+08" opacity="1" labelPlacementMethod="XHeight" lineSizeType="MM" backgroundColor="#ffffff" scaleBasedVisibility="0" enabled="0" penColor="#000000" minimumSize="0" scaleDependency="Area" width="15" sizeScale="3x:0,0,0,0,0,0" backgroundAlpha="255" barWidth="5" sizeType="MM">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute color="#000000" label="" field=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings showAll="1" obstacle="0" linePlacementFlags="18" priority="0" zIndex="0" placement="1" dist="0">
+        <properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="nom">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="code_insee">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="st_area_sha">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="st_length_s">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="nom"/>
+        <alias index="1" name="" field="code_insee"/>
+        <alias index="2" name="" field="st_area_sha"/>
+        <alias index="3" name="" field="st_length_s"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="nom" applyOnUpdate="0"/>
+        <default expression="" field="code_insee" applyOnUpdate="0"/>
+        <default expression="" field="st_area_sha" applyOnUpdate="0"/>
+        <default expression="" field="st_length_s" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" constraints="0" field="nom" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="code_insee" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="st_area_sha" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="st_length_s" exp_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="nom" exp=""/>
+        <constraint desc="" field="code_insee" exp=""/>
+        <constraint desc="" field="st_area_sha" exp=""/>
+        <constraint desc="" field="st_length_s" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns>
+          <column name="nom" type="field" hidden="0" width="-1"/>
+          <column name="code_insee" type="field" hidden="0" width="-1"/>
+          <column name="st_area_sha" type="field" hidden="0" width="-1"/>
+          <column name="st_length_s" type="field" hidden="0" width="-1"/>
+          <column type="actions" hidden="1" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Les formulaires QGIS peuvent avoir une fonction Python qui sera appelée à l'ouverture du formulaire.
+
+Utilisez cette fonction pour ajouter plus de fonctionnalités à vos formulaires.
+
+Entrez le nom de la fonction dans le champ "Fonction d'initialisation Python".
+Voici un exemple à suivre:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+    geom = feature.geometry()
+    control = dialog.findChild(QWidget, "MyLineEdit")
+
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="code_insee" editable="1"/>
+        <field name="nom" editable="1"/>
+        <field name="st_area_sha" editable="1"/>
+        <field name="st_length_s" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="code_insee" labelOnTop="0"/>
+        <field name="nom" labelOnTop="0"/>
+        <field name="st_area_sha" labelOnTop="0"/>
+        <field name="st_length_s" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>nom</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" autoRefreshTime="0" type="raster" maxScale="0">
+      <extent>
+        <xmin>-349347.27878708235220984</xmin>
+        <ymin>5761859.54348060674965382</ymin>
+        <xmax>129081.62874424770416226</xmax>
+        <ymax>6241415.97767783794552088</ymax>
+      </extent>
+      <id>BD_ORTHO__2013___44_dc371e63_ec43_4cb1_9878_e92171412e8d</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:3857&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=BDORTHO201344&amp;styles&amp;url=https://carto.geopal.org/cgi-bin/mapserv?</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>BD ORTHO® 2013 - 44</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxx="0" miny="0" maxy="0" crs="" maxz="0" dimensions="2" minz="0" minx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="défaut">
+        <map-layer-style name="défaut"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <customproperties>
+        <property value="no_action" key="QFieldSync/action"/>
+        <property value="false" key="WMSBackgroundLayer"/>
+        <property value="false" key="WMSPublishDataSourceUrl"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property value="Undefined" key="identify/format"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer opacity="0.5" alphaBand="-1" type="singlebandcolordata" band="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeBlue="128" colorizeGreen="128" colorizeStrength="100" saturation="0" colorizeRed="255" grayscaleMode="0" colorizeOn="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" autoRefreshTime="0" type="raster" maxScale="0">
+      <extent>
+        <xmin>-160738.67676603700965643</xmin>
+        <ymin>5967189.65748213045299053</ymin>
+        <xmax>-130018.67676603700965643</xmax>
+        <ymax>5987669.65748213045299053</ymax>
+      </extent>
+      <id>Fond_de_carte_d0ae8788_49a1_421e_a1a8_f767f111fb11</id>
+      <datasource>./basemap.gpkg</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Fond de carte</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+        <noDataList useSrcNoData="0" bandNo="2"/>
+        <noDataList useSrcNoData="0" bandNo="3"/>
+        <noDataList useSrcNoData="0" bandNo="4"/>
+      </noData>
+      <map-layer-style-manager current="défaut">
+        <map-layer-style name="défaut"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property value="Value" key="identify/format"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer opacity="1" redBand="1" blueBand="3" greenBand="2" alphaBand="4" type="multibandcolor">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <redContrastEnhancement>
+            <minValue>1</minValue>
+            <maxValue>255</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </redContrastEnhancement>
+          <greenContrastEnhancement>
+            <minValue>5</minValue>
+            <maxValue>255</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </greenContrastEnhancement>
+          <blueContrastEnhancement>
+            <minValue>0</minValue>
+            <maxValue>255</maxValue>
+            <algorithm>NoEnhancement</algorithm>
+          </blueContrastEnhancement>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeBlue="128" colorizeGreen="128" colorizeStrength="100" saturation="0" colorizeRed="255" grayscaleMode="0" colorizeOn="0"/>
+        <rasterresampler zoomedInResampler="cubic" zoomedOutResampler="bilinear" maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" autoRefreshTime="0" type="raster" maxScale="0">
+      <extent>
+        <xmin>-349347.27878708235220984</xmin>
+        <ymin>5761859.54348060674965382</ymin>
+        <xmax>129081.62874424770416226</xmax>
+        <ymax>6241415.97767783794552088</ymax>
+      </extent>
+      <id>FranceRaster__1_2_000_000_FranceRaster__1_8_000_000_FranceRaster__1_50_000_Ombrage_FranceRaster__1_4_000_000_FranceRaster__1_250_000_avec_ombrage_FranceRaster__1_1_000_000_avec_ombrage_FranceRaster__1_500_000_FranceRaster_1__50_000_FranceRaster_1__5_000_FranceRaster_1_250_000_FranceRaster_1_20_000_FranceRaster_1_1_000_000_FranceRaster_1_100_000_FranceRaster_1_10_000_FranceRaster_1_2_000_df21bf45_d9f0_4205_80f3_da3a5368c9f4</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:3857&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=FranceRaster1/2000&amp;layers=FranceRaster1/10000&amp;layers=FranceRaster1/100000&amp;layers=FranceRaster1/1000000&amp;layers=FranceRaster1/20000&amp;layers=FranceRaster1/250000&amp;layers=FranceRaster1/5000&amp;layers=FranceRaster1/50000&amp;layers=FranceRaster%C3%82%C2%AE1/500000&amp;layers=FranceRaster%C3%82%C2%AE1/1000000avecombrage&amp;layers=FranceRaster%C3%82%C2%AE1/250000avecombrage&amp;layers=FranceRaster%C3%82%C2%AE1/4000000&amp;layers=FranceRaster%C3%82%C2%AE1/50000Ombrage&amp;layers=FranceRaster%C3%82%C2%AE1/8000000&amp;layers=FranceRaster%C3%82%C2%AE1/2000000&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;styles&amp;url=https://carto.geopal.org/cgi-bin/mapserv?</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>FranceRaster® 1/2 000 000/FranceRaster® 1/8 000 000/FranceRaster® 1/50 000 Ombrage/FranceRaster® 1/4 000 000/FranceRaster® 1/250 000 avec ombrage/FranceRaster® 1/1 000 000 avec ombrage/FranceRaster® 1/500 000/FranceRaster 1/ 50 000/FranceRaster 1/ 5 000/FranceRaster 1/250 000/FranceRaster 1/20 000/FranceRaster 1/1 000 000/FranceRaster 1/100 000/FranceRaster 1/10 000/FranceRaster 1/2 000</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="défaut">
+        <map-layer-style name="défaut"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <customproperties>
+        <property value="no_action" key="QFieldSync/action"/>
+        <property value="Undefined" key="identify/format"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" type="singlebandcolordata" band="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeBlue="128" colorizeGreen="128" colorizeStrength="100" saturation="0" colorizeRed="255" grayscaleMode="0" colorizeOn="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" autoRefreshTime="0" type="raster" maxScale="0">
+      <extent>
+        <xmin>-20037508.34278924390673637</xmin>
+        <ymin>-20037508.34278925508260727</ymin>
+        <xmax>20037508.34278924390673637</xmax>
+        <ymax>20037508.34278924390673637</ymax>
+      </extent>
+      <id>OpenStreetMap_d98b757b_bb13_42c0_b777_623574b8d6bb</id>
+      <datasource>crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=http://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>OpenStreetMap</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider>wms</provider>
+      <noData>
+        <noDataList useSrcNoData="0" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="défaut">
+        <map-layer-style name="défaut"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>0</Searchable>
+      </flags>
+      <customproperties>
+        <property value="no_action" key="QFieldSync/action"/>
+        <property value="Undefined" key="identify/format"/>
+        <property value="OpenStreetMap" key="ol_layer_type"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" type="singlebandcolordata" band="1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>None</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+        </rasterrenderer>
+        <brightnesscontrast contrast="0" brightness="0"/>
+        <huesaturation colorizeBlue="128" colorizeGreen="128" colorizeStrength="100" saturation="0" colorizeRed="255" grayscaleMode="0" colorizeOn="0"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" simplifyMaxScale="1" labelsEnabled="0" readOnly="0" refreshOnNotifyEnabled="0" simplifyLocal="1" refreshOnNotifyMessage="" simplifyDrawingHints="0" minScale="1e+08" autoRefreshTime="0" type="vector" simplifyAlgorithm="0" simplifyDrawingTol="1" geometry="Point" maxScale="0">
+      <id>couche_terrain_8e70e787_5e71_4b83_8495_22e615388e2a</id>
+      <datasource>./couche_terrain.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>couche_terrain_point</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxx="0" miny="0" maxy="0" crs="" maxz="0" dimensions="2" minz="0" minx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="défaut">
+        <map-layer-style name="défaut"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" name="0" force_rhr="0" type="marker" clip_to_extent="1">
+            <layer locked="0" class="SimpleMarker" pass="0" enabled="1">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="164,113,88,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="no_action" key="QFieldSync/action"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory penWidth="0" diagramOrientation="Up" rotationOffset="270" minScaleDenominator="0" penAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" height="15" maxScaleDenominator="1e+08" opacity="1" labelPlacementMethod="XHeight" lineSizeType="MM" backgroundColor="#ffffff" scaleBasedVisibility="0" enabled="0" penColor="#000000" minimumSize="0" scaleDependency="Area" width="15" sizeScale="3x:0,0,0,0,0,0" backgroundAlpha="255" barWidth="5" sizeType="MM">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute color="#000000" label="" field=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings showAll="1" obstacle="0" linePlacementFlags="18" priority="0" zIndex="0" placement="0" dist="0">
+        <properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="champ1">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="champ2">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="champ3">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="champ4">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="id"/>
+        <alias index="1" name="" field="champ1"/>
+        <alias index="2" name="" field="champ2"/>
+        <alias index="3" name="" field="champ3"/>
+        <alias index="4" name="" field="champ4"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="id" applyOnUpdate="0"/>
+        <default expression="" field="champ1" applyOnUpdate="0"/>
+        <default expression="" field="champ2" applyOnUpdate="0"/>
+        <default expression="" field="champ3" applyOnUpdate="0"/>
+        <default expression="" field="champ4" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" constraints="0" field="id" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="champ1" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="champ2" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="champ3" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="champ4" exp_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="id" exp=""/>
+        <constraint desc="" field="champ1" exp=""/>
+        <constraint desc="" field="champ2" exp=""/>
+        <constraint desc="" field="champ3" exp=""/>
+        <constraint desc="" field="champ4" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns>
+          <column name="id" type="field" hidden="0" width="-1"/>
+          <column type="actions" hidden="1" width="-1"/>
+          <column name="Type_data" type="field" hidden="0" width="-1"/>
+          <column name="Code INSEE" type="field" hidden="0" width="-1"/>
+          <column name="Date" type="field" hidden="0" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Les formulaires QGIS peuvent avoir une fonction Python qui sera appelée à l'ouverture du formulaire.
+
+Utilisez cette fonction pour ajouter plus de fonctionnalités à vos formulaires.
+
+Entrez le nom de la fonction dans le champ "Fonction d'initialisation Python".
+Voici un exemple à suivre:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+    geom = feature.geometry()
+    control = dialog.findChild(QWidget, "MyLineEdit")
+
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="Code INSEE" editable="1"/>
+        <field name="Date" editable="1"/>
+        <field name="Type_data" editable="1"/>
+        <field name="champ1" editable="1"/>
+        <field name="champ2" editable="1"/>
+        <field name="champ3" editable="1"/>
+        <field name="id" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="Code INSEE" labelOnTop="0"/>
+        <field name="Date" labelOnTop="0"/>
+        <field name="Type_data" labelOnTop="0"/>
+        <field name="champ1" labelOnTop="0"/>
+        <field name="champ2" labelOnTop="0"/>
+        <field name="champ3" labelOnTop="0"/>
+        <field name="id" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>id</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" simplifyMaxScale="1" labelsEnabled="0" readOnly="0" refreshOnNotifyEnabled="0" simplifyLocal="1" refreshOnNotifyMessage="" simplifyDrawingHints="1" minScale="1e+08" autoRefreshTime="0" type="vector" simplifyAlgorithm="0" simplifyDrawingTol="1" geometry="Line" maxScale="0">
+      <id>couche_terrain_ligne_c619719a_e478_4c4f_a59d_e73b0fea7f95</id>
+      <datasource>./couche_terrain_ligne.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>couche_terrain_ligne</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial maxx="0" miny="0" maxy="0" crs="" maxz="0" dimensions="2" minz="0" minx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="défaut">
+        <map-layer-style name="défaut"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" name="0" force_rhr="0" type="line" clip_to_extent="1">
+            <layer locked="0" class="SimpleLine" pass="0" enabled="1">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="213,180,60,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="ring_filter" v="0"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="no_action" key="QFieldSync/action"/>
+        <property value="0" key="embeddedWidgets/count"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory penWidth="0" diagramOrientation="Up" rotationOffset="270" minScaleDenominator="0" penAlpha="255" lineSizeScale="3x:0,0,0,0,0,0" height="15" maxScaleDenominator="1e+08" opacity="1" labelPlacementMethod="XHeight" lineSizeType="MM" backgroundColor="#ffffff" scaleBasedVisibility="0" enabled="0" penColor="#000000" minimumSize="0" scaleDependency="Area" width="15" sizeScale="3x:0,0,0,0,0,0" backgroundAlpha="255" barWidth="5" sizeType="MM">
+          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute color="#000000" label="" field=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings showAll="1" obstacle="0" linePlacementFlags="18" priority="0" zIndex="0" placement="2" dist="0">
+        <properties>
+          <Option type="Map">
+            <Option name="name" value="" type="QString"/>
+            <Option name="properties"/>
+            <Option name="type" value="collection" type="QString"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="false" type="bool"/>
+                <Option name="UseHtml" value="false" type="bool"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Type_data">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option name="IsMultiline" value="false" type="bool"/>
+                <Option name="UseHtml" value="false" type="bool"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="id"/>
+        <alias index="1" name="" field="Type_data"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="id" applyOnUpdate="0"/>
+        <default expression="" field="Type_data" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="1" constraints="7" field="id" exp_strength="2" notnull_strength="1"/>
+        <constraint unique_strength="0" constraints="0" field="Type_data" exp_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="Permet l'autoincrémentation" field="id" exp="$id"/>
+        <constraint desc="" field="Type_data" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns>
+          <column name="id" type="field" hidden="0" width="-1"/>
+          <column name="Type_data" type="field" hidden="0" width="-1"/>
+          <column name="DateCreate" type="field" hidden="0" width="-1"/>
+          <column name="Code_Insee" type="field" hidden="0" width="-1"/>
+          <column type="actions" hidden="1" width="-1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+Les formulaires QGIS peuvent avoir une fonction Python qui sera appelée à l'ouverture du formulaire.
+
+Utilisez cette fonction pour ajouter plus de fonctionnalités à vos formulaires.
+
+Entrez le nom de la fonction dans le champ "Fonction d'initialisation Python".
+Voici un exemple à suivre:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+    geom = feature.geometry()
+    control = dialog.findChild(QWidget, "MyLineEdit")
+
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable>
+        <field name="Code_Insee" editable="1"/>
+        <field name="DateCreate" editable="1"/>
+        <field name="Type_data" editable="1"/>
+        <field name="id" editable="1"/>
+      </editable>
+      <labelOnTop>
+        <field name="Code_Insee" labelOnTop="0"/>
+        <field name="DateCreate" labelOnTop="0"/>
+        <field name="Type_data" labelOnTop="0"/>
+        <field name="id" labelOnTop="0"/>
+      </labelOnTop>
+      <widgets/>
+      <previewExpression>id</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" simplifyMaxScale="1" labelsEnabled="0" readOnly="0" refreshOnNotifyEnabled="0" simplifyLocal="1" refreshOnNotifyMessage="" simplifyDrawingHints="1" minScale="1e+08" autoRefreshTime="0" type="vector" simplifyAlgorithm="0" simplifyDrawingTol="1" geometry="Point" maxScale="0">
+      <id>couche_terrain_polygone_d571bba7_fbc8_4565_9879_98c4de91e885</id>
+      <datasource>./couche_terrain_polygone.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>couche_terrain_polygone</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="défaut">
+        <map-layer-style name="défaut"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" name="0" force_rhr="0" type="marker" clip_to_extent="1">
+            <layer locked="0" class="SimpleMarker" pass="0" enabled="1">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="114,155,111,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="keep_existent" key="QFieldSync/action"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="id">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="DateCreate">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Data_Type">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Nb_place">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="id"/>
+        <alias index="1" name="" field="DateCreate"/>
+        <alias index="2" name="" field="Data_Type"/>
+        <alias index="3" name="" field="Nb_place"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="id" applyOnUpdate="0"/>
+        <default expression="" field="DateCreate" applyOnUpdate="0"/>
+        <default expression="" field="Data_Type" applyOnUpdate="0"/>
+        <default expression="" field="Nb_place" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" constraints="0" field="id" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="DateCreate" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="Data_Type" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="Nb_place" exp_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="id" exp=""/>
+        <constraint desc="" field="DateCreate" exp=""/>
+        <constraint desc="" field="Data_Type" exp=""/>
+        <constraint desc="" field="Nb_place" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" styleCategories="AllStyleCategories" simplifyMaxScale="1" labelsEnabled="0" readOnly="0" refreshOnNotifyEnabled="0" simplifyLocal="1" refreshOnNotifyMessage="" simplifyDrawingHints="1" minScale="1e+08" autoRefreshTime="0" type="vector" simplifyAlgorithm="0" simplifyDrawingTol="1" geometry="Point" maxScale="0">
+      <extent>
+        <xmin>-1.36015820000000009</xmin>
+        <ymin>47.24561529999999721</ymin>
+        <xmax>-1.36015820000000009</xmax>
+        <ymax>47.24561529999999721</ymax>
+      </extent>
+      <id>fichier_national_aires_covoiturage_2018_consolide_par_blablacar_Sheet1_fbb09cbf_eba3_4d64_bb6f_ecca557c5863</id>
+      <datasource>../data/covoiturage/fichier-national-aires-covoiturage-2018-consolide-par-blablacar.xlsx.Sheet1.vrt|layerid=0|subset="Ville"='Le Loroux-Bottereau'</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>fichier-national-aires-covoiturage-2018-consolide-par-blablacar-Sheet1</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="défaut">
+        <map-layer-style name="défaut"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" symbollevels="0" enableorderby="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" name="0" force_rhr="0" type="marker" clip_to_extent="1">
+            <layer locked="0" class="SimpleMarker" pass="0" enabled="1">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="164,113,88,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="35,35,35,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" value="" type="QString"/>
+                  <Option name="properties"/>
+                  <Option name="type" value="collection" type="QString"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property value="offline" key="QFieldSync/action"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
+        <activeChecks type="StringList">
+          <Option value="" type="QString"/>
+        </activeChecks>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="Nom du lieu">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Adresse">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Code postal">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Ville">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Type de parking">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Source">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Places">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="PMR">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Transport public">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Prix">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Ouverture">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Commentaire">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Proprietaire">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Lumière">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Velo">
+          <editWidget type="">
+            <config>
+              <Option/>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias index="0" name="" field="Nom du lieu"/>
+        <alias index="1" name="" field="Adresse"/>
+        <alias index="2" name="" field="Code postal"/>
+        <alias index="3" name="" field="Ville"/>
+        <alias index="4" name="" field="Type de parking"/>
+        <alias index="5" name="" field="Source"/>
+        <alias index="6" name="" field="Places"/>
+        <alias index="7" name="" field="PMR"/>
+        <alias index="8" name="" field="Transport public"/>
+        <alias index="9" name="" field="Prix"/>
+        <alias index="10" name="" field="Ouverture"/>
+        <alias index="11" name="" field="Commentaire"/>
+        <alias index="12" name="" field="Proprietaire"/>
+        <alias index="13" name="" field="Lumière"/>
+        <alias index="14" name="" field="Velo"/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="Nom du lieu" applyOnUpdate="0"/>
+        <default expression="" field="Adresse" applyOnUpdate="0"/>
+        <default expression="" field="Code postal" applyOnUpdate="0"/>
+        <default expression="" field="Ville" applyOnUpdate="0"/>
+        <default expression="" field="Type de parking" applyOnUpdate="0"/>
+        <default expression="" field="Source" applyOnUpdate="0"/>
+        <default expression="" field="Places" applyOnUpdate="0"/>
+        <default expression="" field="PMR" applyOnUpdate="0"/>
+        <default expression="" field="Transport public" applyOnUpdate="0"/>
+        <default expression="" field="Prix" applyOnUpdate="0"/>
+        <default expression="" field="Ouverture" applyOnUpdate="0"/>
+        <default expression="" field="Commentaire" applyOnUpdate="0"/>
+        <default expression="" field="Proprietaire" applyOnUpdate="0"/>
+        <default expression="" field="Lumière" applyOnUpdate="0"/>
+        <default expression="" field="Velo" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint unique_strength="0" constraints="0" field="Nom du lieu" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="Adresse" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="Code postal" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="Ville" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="Type de parking" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="Source" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="Places" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="PMR" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="Transport public" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="Prix" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="Ouverture" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="Commentaire" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="Proprietaire" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="Lumière" exp_strength="0" notnull_strength="0"/>
+        <constraint unique_strength="0" constraints="0" field="Velo" exp_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint desc="" field="Nom du lieu" exp=""/>
+        <constraint desc="" field="Adresse" exp=""/>
+        <constraint desc="" field="Code postal" exp=""/>
+        <constraint desc="" field="Ville" exp=""/>
+        <constraint desc="" field="Type de parking" exp=""/>
+        <constraint desc="" field="Source" exp=""/>
+        <constraint desc="" field="Places" exp=""/>
+        <constraint desc="" field="PMR" exp=""/>
+        <constraint desc="" field="Transport public" exp=""/>
+        <constraint desc="" field="Prix" exp=""/>
+        <constraint desc="" field="Ouverture" exp=""/>
+        <constraint desc="" field="Commentaire" exp=""/>
+        <constraint desc="" field="Proprietaire" exp=""/>
+        <constraint desc="" field="Lumière" exp=""/>
+        <constraint desc="" field="Velo" exp=""/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1"></editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath></editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression></previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="OpenStreetMap_d98b757b_bb13_42c0_b777_623574b8d6bb"/>
+    <layer id="FranceRaster__1_2_000_000_FranceRaster__1_8_000_000_FranceRaster__1_50_000_Ombrage_FranceRaster__1_4_000_000_FranceRaster__1_250_000_avec_ombrage_FranceRaster__1_1_000_000_avec_ombrage_FranceRaster__1_500_000_FranceRaster_1__50_000_FranceRaster_1__5_000_FranceRaster_1_250_000_FranceRaster_1_20_000_FranceRaster_1_1_000_000_FranceRaster_1_100_000_FranceRaster_1_10_000_FranceRaster_1_2_000_df21bf45_d9f0_4205_80f3_da3a5368c9f4"/>
+    <layer id="BD_ORTHO__2013___44_dc371e63_ec43_4cb1_9878_e92171412e8d"/>
+    <layer id="fichier_national_aires_covoiturage_2018_consolide_par_blablacar_Sheet1_fbb09cbf_eba3_4d64_bb6f_ecca557c5863"/>
+    <layer id="224400028_communes_de_loire_atlantique_ba797e9b_d05e_4a8e_bc87_d4708ad58a5a"/>
+    <layer id="couche_terrain_8e70e787_5e71_4b83_8495_22e615388e2a"/>
+    <layer id="couche_terrain_ligne_c619719a_e478_4c4f_a59d_e73b0fea7f95"/>
+    <layer id="couche_terrain_polygone_d571bba7_fbc8_4565_9879_98c4de91e885"/>
+    <layer id="Fond_de_carte_d0ae8788_49a1_421e_a1a8_f767f111fb11"/>
+  </layerorder>
+  <properties>
+    <WMSDefaultMapUnitsPerMm type="double">1</WMSDefaultMapUnitsPerMm>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <WMTSUrl type="QString"></WMTSUrl>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <WFSLayers type="QStringList"/>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <WFSUrl type="QString"></WFSUrl>
+    <PositionPrecision>
+      <DegreeFormat type="QString">MU</DegreeFormat>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <WMTSLayers>
+      <Layer type="QStringList"/>
+      <Group type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSLayers>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <WCSLayers type="QStringList"/>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <WMTSPngLayers>
+      <Layer type="QStringList"/>
+      <Group type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSPngLayers>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
+    <WMSPrecision type="QString">8</WMSPrecision>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString">m2</AreaUnits>
+    </Measurement>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <WMSFees type="QString">conditions unknown</WMSFees>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <WMSUrl type="QString"></WMSUrl>
+    <WMSRequestDefinedDataSources type="bool">false</WMSRequestDefinedDataSources>
+    <WMTSJpegLayers>
+      <Layer type="QStringList"/>
+      <Group type="QStringList"/>
+      <Project type="bool">false</Project>
+    </WMTSJpegLayers>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <WCSUrl type="QString"></WCSUrl>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <Macros>
+      <pythonCode type="QString"></pythonCode>
+    </Macros>
+    <WMSContactPosition type="QString"></WMSContactPosition>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <Gui>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+    </Gui>
+    <WMTSMinScale type="int">5000</WMTSMinScale>
+    <qfieldsync>
+      <baseMapMupp type="double">10</baseMapMupp>
+      <createBaseMap type="int">1</createBaseMap>
+      <baseMapTheme type="QString"></baseMapTheme>
+      <baseMapType type="QString">singleLayer</baseMapType>
+      <baseMapTileSize type="int">1024</baseMapTileSize>
+      <originalProjectPath type="QString">C:/Users/medas/Documents/Maxime Chauveau/PROJET_SIG_4/QGIS/MCH_PROJET_SIG.qgs</originalProjectPath>
+      <baseMapLayer type="QString">OpenStreetMap_d98b757b_bb13_42c0_b777_623574b8d6bb</baseMapLayer>
+      <offlineCopyOnlyAoi type="int">0</offlineCopyOnlyAoi>
+    </qfieldsync>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <PAL>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <TextFormat type="int">0</TextFormat>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <SearchMethod type="int">0</SearchMethod>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <CandidatesLine type="int">50</CandidatesLine>
+    </PAL>
+    <WFSTLayers>
+      <Delete type="QStringList"/>
+      <Update type="QStringList"/>
+      <Insert type="QStringList"/>
+    </WFSTLayers>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WMSRootName type="QString"></WMSRootName>
+    <DefaultStyles>
+      <Marker type="QString"></Marker>
+      <Fill type="QString"></Fill>
+      <RandomColors type="bool">true</RandomColors>
+      <Line type="QString"></Line>
+      <Opacity type="double">1</Opacity>
+      <ColorRamp type="QString"></ColorRamp>
+    </DefaultStyles>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <contact>
+      <name></name>
+      <organization></organization>
+      <position></position>
+      <voice></voice>
+      <fax></fax>
+      <email></email>
+      <role></role>
+    </contact>
+    <links/>
+    <author>medas</author>
+    <creation>2019-11-25T11:38:07</creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+</qgis>
