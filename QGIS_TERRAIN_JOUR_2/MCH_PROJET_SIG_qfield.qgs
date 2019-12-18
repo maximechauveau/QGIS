@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="3.4.13-Madeira">
+<qgis version="3.4.13-Madeira" projectname="">
   <homePath path=""/>
   <title></title>
   <autotransaction active="0"/>
@@ -7,7 +7,7 @@
   <trust active="0"/>
   <projectCrs>
     <spatialrefsys>
-      <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+      <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
       <srsid>3857</srsid>
       <srid>3857</srid>
       <authid>EPSG:3857</authid>
@@ -19,72 +19,72 @@
   </projectCrs>
   <layer-tree-group>
     <customproperties/>
-    <layer-tree-layer providerKey="ogr" source="../data/shapefile/Zone_20.shp" name="Zone_20" id="Zone_20_2d8d7873_ee8a_4f62_bb5b_9a748a42d817" checked="Qt::Checked" expanded="0">
+    <layer-tree-layer name="Zone_20" source="../data/shapefile/Zone_20.shp" checked="Qt::Checked" id="Zone_20_2d8d7873_ee8a_4f62_bb5b_9a748a42d817" expanded="0" providerKey="ogr">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer providerKey="ogr" source="../data/shapefile/Zone_30.shp" name="Zone_30" id="Zone_30_0f2cfc77_bad2_412b_a906_1098b25e6184" checked="Qt::Checked" expanded="0">
+    <layer-tree-layer name="Zone_30" source="../data/shapefile/Zone_30.shp" checked="Qt::Checked" id="Zone_30_0f2cfc77_bad2_412b_a906_1098b25e6184" expanded="0" providerKey="ogr">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer providerKey="ogr" source="./covoiturage.shp" name="covoiturage" id="covoiturage_bcda32c5_3a54_4f22_99dc_f3a1e3a2d730" checked="Qt::Checked" expanded="0">
+    <layer-tree-layer name="covoiturage" source="./covoiturage.shp" checked="Qt::Unchecked" id="covoiturage_bcda32c5_3a54_4f22_99dc_f3a1e3a2d730" expanded="0" providerKey="ogr">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer providerKey="ogr" source="./couche_parking.shp" name="couche_parking" id="couche_parking_c22805eb_020b_4f26_b15c_6bae5b594951" checked="Qt::Checked" expanded="0">
+    <layer-tree-layer name="couche_parking" source="./couche_parking.shp" checked="Qt::Checked" id="couche_parking_c22805eb_020b_4f26_b15c_6bae5b594951" expanded="0" providerKey="ogr">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer providerKey="ogr" source="../data/shapefile/acces_handicapee.shp" name="acces_handicapee" id="acces_handicapee_916f1238_055c_4cd5_837a_9ccb7e5a02ae" checked="Qt::Checked" expanded="0">
+    <layer-tree-layer name="acces_handicapee" source="../data/shapefile/acces_handicapee.shp" checked="Qt::Checked" id="acces_handicapee_916f1238_055c_4cd5_837a_9ccb7e5a02ae" expanded="0" providerKey="ogr">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer providerKey="ogr" source="../data/shapefile/Borne_recharge.shp" name="Borne_recharge" id="Borne_recharge_dd07a72a_9e3d_4e3c_be31_c69a7e322e68" checked="Qt::Checked" expanded="0">
+    <layer-tree-layer name="Borne_recharge" source="../data/shapefile/Borne_recharge.shp" checked="Qt::Checked" id="Borne_recharge_dd07a72a_9e3d_4e3c_be31_c69a7e322e68" expanded="0" providerKey="ogr">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer providerKey="ogr" source="../data/accident/Accidents_Loroux.shp" name="Accidents_Loroux" id="Accidents_Loroux_3f5a4800_e9f3_4d85_ab88_bb2313c875e0" checked="Qt::Checked" expanded="0">
+    <layer-tree-layer name="Accidents_Loroux" source="../data/accident/Accidents_Loroux.shp" checked="Qt::Unchecked" id="Accidents_Loroux_3f5a4800_e9f3_4d85_ab88_bb2313c875e0" expanded="0" providerKey="ogr">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer providerKey="ogr" source="../data/transport/Transport_Loroux.gpkg|layername=Transport_Loroux" name="Transport_Loroux" id="Transport_Loroux_0e727417_51ea_4317_937c_5d82bf47d567" checked="Qt::Checked" expanded="0">
+    <layer-tree-layer name="Transport_Loroux" source="../data/transport/Transport_Loroux.gpkg|layername=Transport_Loroux" checked="Qt::Unchecked" id="Transport_Loroux_0e727417_51ea_4317_937c_5d82bf47d567" expanded="0" providerKey="ogr">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer providerKey="ogr" source="./couche_polygone_parking.shp" name="couche_polygone_parking" id="couche_polygone_parking_e17665e0_2b7f_4422_849f_3bfffb503022" checked="Qt::Checked" expanded="0">
+    <layer-tree-layer name="couche_polygone_parking" source="./couche_polygone_parking.shp" checked="Qt::Checked" id="couche_polygone_parking_e17665e0_2b7f_4422_849f_3bfffb503022" expanded="0" providerKey="ogr">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer providerKey="ogr" source="./couche_piste_cyclable.shp" name="couche_piste_cyclable" id="couche_piste_cyclable_4e9c5a25_36db_42b9_951a_b531ca1d4982" checked="Qt::Checked" expanded="0">
+    <layer-tree-layer name="couche_piste_cyclable" source="./couche_piste_cyclable.shp" checked="Qt::Checked" id="couche_piste_cyclable_4e9c5a25_36db_42b9_951a_b531ca1d4982" expanded="0" providerKey="ogr">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer providerKey="ogr" source="../data/route départementale/routes_departementales_loroux.shp" name="routes_departementales_loroux" id="routes_departementales_loroux_7b2685bd_7fc0_4dc1_86c7_0479f912603a" checked="Qt::Checked" expanded="0">
+    <layer-tree-layer name="routes_departementales_loroux" source="../data/route départementale/routes_departementales_loroux.shp" checked="Qt::Unchecked" id="routes_departementales_loroux_7b2685bd_7fc0_4dc1_86c7_0479f912603a" expanded="0" providerKey="ogr">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer providerKey="ogr" source="./224400028_communes-de-loire-atlantique.shp|layerid=0|subset=&quot;nom&quot;='Le Loroux-Bottereau'" name="Le Loroux-Bottereau" id="224400028_communes_de_loire_atlantique_ba797e9b_d05e_4a8e_bc87_d4708ad58a5a" checked="Qt::Checked" expanded="0">
+    <layer-tree-layer name="Le Loroux-Bottereau" source="./224400028_communes-de-loire-atlantique.shp|layerid=0|subset=&quot;nom&quot;='Le Loroux-Bottereau'" checked="Qt::Unchecked" id="224400028_communes_de_loire_atlantique_ba797e9b_d05e_4a8e_bc87_d4708ad58a5a" expanded="0" providerKey="ogr">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer providerKey="wms" source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=http://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png" name="OpenStreetMap" id="OpenStreetMap_d98b757b_bb13_42c0_b777_623574b8d6bb" checked="Qt::Checked" expanded="1">
+    <layer-tree-layer name="OpenStreetMap" source="crs=EPSG:3857&amp;format&amp;type=xyz&amp;url=http://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png" checked="Qt::Checked" id="OpenStreetMap_d98b757b_bb13_42c0_b777_623574b8d6bb" expanded="1" providerKey="wms">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
     </layer-tree-layer>
-    <layer-tree-layer providerKey="gdal" source="./basemap.gpkg" name="Fond de carte" id="Fond_de_carte_11ef89d6_05a3_4fe7_854c_7a14719aeae6" checked="Qt::Unchecked" expanded="0">
+    <layer-tree-layer name="Fond de carte" source="./basemap.gpkg" checked="Qt::Unchecked" id="Fond_de_carte_11ef89d6_05a3_4fe7_854c_7a14719aeae6" expanded="0" providerKey="gdal">
       <customproperties>
         <property key="expandedLegendNodes"/>
       </customproperties>
@@ -106,35 +106,35 @@
       <item>covoiturage_bcda32c5_3a54_4f22_99dc_f3a1e3a2d730</item>
     </custom-order>
   </layer-tree-group>
-  <snapping-settings unit="1" intersection-snapping="0" mode="2" tolerance="12" type="1" enabled="0">
+  <snapping-settings mode="2" unit="1" intersection-snapping="0" tolerance="12" enabled="0" type="1">
     <individual-layer-settings>
-      <layer-setting tolerance="12" type="1" enabled="0" id="couche_polygone_parking_e17665e0_2b7f_4422_849f_3bfffb503022" units="1"/>
-      <layer-setting tolerance="12" type="1" enabled="0" id="covoiturage_bcda32c5_3a54_4f22_99dc_f3a1e3a2d730" units="1"/>
-      <layer-setting tolerance="12" type="1" enabled="0" id="routes_departementales_loroux_7b2685bd_7fc0_4dc1_86c7_0479f912603a" units="1"/>
-      <layer-setting tolerance="12" type="1" enabled="0" id="Borne_recharge_dd07a72a_9e3d_4e3c_be31_c69a7e322e68" units="1"/>
-      <layer-setting tolerance="12" type="1" enabled="0" id="224400028_communes_de_loire_atlantique_ba797e9b_d05e_4a8e_bc87_d4708ad58a5a" units="1"/>
-      <layer-setting tolerance="12" type="1" enabled="0" id="Accidents_Loroux_3f5a4800_e9f3_4d85_ab88_bb2313c875e0" units="1"/>
-      <layer-setting tolerance="12" type="1" enabled="0" id="Zone_30_0f2cfc77_bad2_412b_a906_1098b25e6184" units="1"/>
-      <layer-setting tolerance="12" type="1" enabled="0" id="couche_parking_c22805eb_020b_4f26_b15c_6bae5b594951" units="1"/>
-      <layer-setting tolerance="12" type="1" enabled="0" id="Transport_Loroux_0e727417_51ea_4317_937c_5d82bf47d567" units="1"/>
-      <layer-setting tolerance="12" type="1" enabled="0" id="Zone_20_2d8d7873_ee8a_4f62_bb5b_9a748a42d817" units="1"/>
-      <layer-setting tolerance="12" type="1" enabled="0" id="acces_handicapee_916f1238_055c_4cd5_837a_9ccb7e5a02ae" units="1"/>
-      <layer-setting tolerance="12" type="1" enabled="0" id="couche_piste_cyclable_4e9c5a25_36db_42b9_951a_b531ca1d4982" units="1"/>
+      <layer-setting tolerance="12" units="1" id="routes_departementales_loroux_7b2685bd_7fc0_4dc1_86c7_0479f912603a" enabled="0" type="1"/>
+      <layer-setting tolerance="12" units="1" id="couche_polygone_parking_e17665e0_2b7f_4422_849f_3bfffb503022" enabled="0" type="1"/>
+      <layer-setting tolerance="12" units="1" id="Zone_30_0f2cfc77_bad2_412b_a906_1098b25e6184" enabled="0" type="1"/>
+      <layer-setting tolerance="12" units="1" id="224400028_communes_de_loire_atlantique_ba797e9b_d05e_4a8e_bc87_d4708ad58a5a" enabled="0" type="1"/>
+      <layer-setting tolerance="12" units="1" id="couche_piste_cyclable_4e9c5a25_36db_42b9_951a_b531ca1d4982" enabled="0" type="1"/>
+      <layer-setting tolerance="12" units="1" id="Zone_20_2d8d7873_ee8a_4f62_bb5b_9a748a42d817" enabled="0" type="1"/>
+      <layer-setting tolerance="12" units="1" id="Accidents_Loroux_3f5a4800_e9f3_4d85_ab88_bb2313c875e0" enabled="0" type="1"/>
+      <layer-setting tolerance="12" units="1" id="couche_parking_c22805eb_020b_4f26_b15c_6bae5b594951" enabled="0" type="1"/>
+      <layer-setting tolerance="12" units="1" id="Transport_Loroux_0e727417_51ea_4317_937c_5d82bf47d567" enabled="0" type="1"/>
+      <layer-setting tolerance="12" units="1" id="acces_handicapee_916f1238_055c_4cd5_837a_9ccb7e5a02ae" enabled="0" type="1"/>
+      <layer-setting tolerance="12" units="1" id="Borne_recharge_dd07a72a_9e3d_4e3c_be31_c69a7e322e68" enabled="0" type="1"/>
+      <layer-setting tolerance="12" units="1" id="covoiturage_bcda32c5_3a54_4f22_99dc_f3a1e3a2d730" enabled="0" type="1"/>
     </individual-layer-settings>
   </snapping-settings>
   <relations/>
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>meters</units>
     <extent>
-      <xmin>-151447.52495196158997715</xmin>
-      <ymin>5981453.10987191926687956</ymin>
-      <xmax>-150312.99321368033997715</xmax>
-      <ymax>5982462.39112185966223478</ymax>
+      <xmin>-150529.78039960129535757</xmin>
+      <ymin>5980493.75772974733263254</ymin>
+      <xmax>-149395.24866132004535757</xmax>
+      <ymax>5981503.03897968772798777</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
       <spatialrefsys>
-        <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+        <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
         <srsid>3857</srsid>
         <srid>3857</srid>
         <authid>EPSG:3857</authid>
@@ -148,81 +148,81 @@
   </mapcanvas>
   <projectModels/>
   <legend updateDrawingOrder="true">
-    <legendlayer open="false" name="Zone_20" drawingOrder="-1" checked="Qt::Checked" showFeatureCount="0">
+    <legendlayer open="false" name="Zone_20" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="Zone_20_2d8d7873_ee8a_4f62_bb5b_9a748a42d817"/>
+        <legendlayerfile visible="1" layerid="Zone_20_2d8d7873_ee8a_4f62_bb5b_9a748a42d817" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="false" name="Zone_30" drawingOrder="-1" checked="Qt::Checked" showFeatureCount="0">
+    <legendlayer open="false" name="Zone_30" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="Zone_30_0f2cfc77_bad2_412b_a906_1098b25e6184"/>
+        <legendlayerfile visible="1" layerid="Zone_30_0f2cfc77_bad2_412b_a906_1098b25e6184" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="false" name="covoiturage" drawingOrder="-1" checked="Qt::Checked" showFeatureCount="0">
+    <legendlayer open="false" name="covoiturage" showFeatureCount="0" checked="Qt::Unchecked" drawingOrder="-1">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="covoiturage_bcda32c5_3a54_4f22_99dc_f3a1e3a2d730"/>
+        <legendlayerfile visible="0" layerid="covoiturage_bcda32c5_3a54_4f22_99dc_f3a1e3a2d730" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="false" name="couche_parking" drawingOrder="-1" checked="Qt::Checked" showFeatureCount="0">
+    <legendlayer open="false" name="couche_parking" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="couche_parking_c22805eb_020b_4f26_b15c_6bae5b594951"/>
+        <legendlayerfile visible="1" layerid="couche_parking_c22805eb_020b_4f26_b15c_6bae5b594951" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="false" name="acces_handicapee" drawingOrder="-1" checked="Qt::Checked" showFeatureCount="0">
+    <legendlayer open="false" name="acces_handicapee" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="acces_handicapee_916f1238_055c_4cd5_837a_9ccb7e5a02ae"/>
+        <legendlayerfile visible="1" layerid="acces_handicapee_916f1238_055c_4cd5_837a_9ccb7e5a02ae" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="false" name="Borne_recharge" drawingOrder="-1" checked="Qt::Checked" showFeatureCount="0">
+    <legendlayer open="false" name="Borne_recharge" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="Borne_recharge_dd07a72a_9e3d_4e3c_be31_c69a7e322e68"/>
+        <legendlayerfile visible="1" layerid="Borne_recharge_dd07a72a_9e3d_4e3c_be31_c69a7e322e68" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="false" name="Accidents_Loroux" drawingOrder="-1" checked="Qt::Checked" showFeatureCount="0">
+    <legendlayer open="false" name="Accidents_Loroux" showFeatureCount="0" checked="Qt::Unchecked" drawingOrder="-1">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="Accidents_Loroux_3f5a4800_e9f3_4d85_ab88_bb2313c875e0"/>
+        <legendlayerfile visible="0" layerid="Accidents_Loroux_3f5a4800_e9f3_4d85_ab88_bb2313c875e0" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="false" name="Transport_Loroux" drawingOrder="-1" checked="Qt::Checked" showFeatureCount="0">
+    <legendlayer open="false" name="Transport_Loroux" showFeatureCount="0" checked="Qt::Unchecked" drawingOrder="-1">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="Transport_Loroux_0e727417_51ea_4317_937c_5d82bf47d567"/>
+        <legendlayerfile visible="0" layerid="Transport_Loroux_0e727417_51ea_4317_937c_5d82bf47d567" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="false" name="couche_polygone_parking" drawingOrder="-1" checked="Qt::Checked" showFeatureCount="0">
+    <legendlayer open="false" name="couche_polygone_parking" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="couche_polygone_parking_e17665e0_2b7f_4422_849f_3bfffb503022"/>
+        <legendlayerfile visible="1" layerid="couche_polygone_parking_e17665e0_2b7f_4422_849f_3bfffb503022" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="false" name="couche_piste_cyclable" drawingOrder="-1" checked="Qt::Checked" showFeatureCount="0">
+    <legendlayer open="false" name="couche_piste_cyclable" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="couche_piste_cyclable_4e9c5a25_36db_42b9_951a_b531ca1d4982"/>
+        <legendlayerfile visible="1" layerid="couche_piste_cyclable_4e9c5a25_36db_42b9_951a_b531ca1d4982" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="false" name="routes_departementales_loroux" drawingOrder="-1" checked="Qt::Checked" showFeatureCount="0">
+    <legendlayer open="false" name="routes_departementales_loroux" showFeatureCount="0" checked="Qt::Unchecked" drawingOrder="-1">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="routes_departementales_loroux_7b2685bd_7fc0_4dc1_86c7_0479f912603a"/>
+        <legendlayerfile visible="0" layerid="routes_departementales_loroux_7b2685bd_7fc0_4dc1_86c7_0479f912603a" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="false" name="Le Loroux-Bottereau" drawingOrder="-1" checked="Qt::Checked" showFeatureCount="0">
+    <legendlayer open="false" name="Le Loroux-Bottereau" showFeatureCount="0" checked="Qt::Unchecked" drawingOrder="-1">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="224400028_communes_de_loire_atlantique_ba797e9b_d05e_4a8e_bc87_d4708ad58a5a"/>
+        <legendlayerfile visible="0" layerid="224400028_communes_de_loire_atlantique_ba797e9b_d05e_4a8e_bc87_d4708ad58a5a" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="true" name="OpenStreetMap" drawingOrder="-1" checked="Qt::Checked" showFeatureCount="0">
+    <legendlayer open="true" name="OpenStreetMap" showFeatureCount="0" checked="Qt::Checked" drawingOrder="-1">
       <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" visible="1" layerid="OpenStreetMap_d98b757b_bb13_42c0_b777_623574b8d6bb"/>
+        <legendlayerfile visible="1" layerid="OpenStreetMap_d98b757b_bb13_42c0_b777_623574b8d6bb" isInOverview="0"/>
       </filegroup>
     </legendlayer>
-    <legendlayer open="false" name="Fond de carte" drawingOrder="-1" checked="Qt::Unchecked" showFeatureCount="0">
+    <legendlayer open="false" name="Fond de carte" showFeatureCount="0" checked="Qt::Unchecked" drawingOrder="-1">
       <filegroup open="false" hidden="false">
-        <legendlayerfile isInOverview="0" visible="0" layerid="Fond_de_carte_11ef89d6_05a3_4fe7_854c_7a14719aeae6"/>
+        <legendlayerfile visible="0" layerid="Fond_de_carte_11ef89d6_05a3_4fe7_854c_7a14719aeae6" isInOverview="0"/>
       </filegroup>
     </legendlayer>
   </legend>
   <mapViewDocks/>
   <mapViewDocks3D/>
   <projectlayers>
-    <maplayer minScale="1e+08" simplifyDrawingTol="1" maxScale="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" simplifyLocal="1" type="vector" labelsEnabled="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" simplifyDrawingHints="1" simplifyMaxScale="1" readOnly="0" geometry="Polygon" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0">
+    <maplayer autoRefreshEnabled="0" styleCategories="AllStyleCategories" readOnly="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" simplifyDrawingHints="1" labelsEnabled="0" simplifyAlgorithm="0" geometry="Polygon" hasScaleBasedVisibilityFlag="0" type="vector" maxScale="0" simplifyDrawingTol="1" simplifyMaxScale="1" autoRefreshTime="0" simplifyLocal="1">
       <extent>
         <xmin>-1.40162702981184406</xmin>
         <ymin>47.1953955692631979</ymin>
@@ -275,11 +275,11 @@
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>true</geographicflag>
+            <geographicflag>false</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial maxy="0" minx="0" maxx="0" miny="0" minz="0" dimensions="2" maxz="0" crs=""/>
+          <spatial dimensions="2" miny="0" maxy="0" maxz="0" crs="" minx="0" maxx="0" minz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -303,10 +303,10 @@
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 enableorderby="0" type="singleSymbol" symbollevels="0" forceraster="0">
+      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
         <symbols>
-          <symbol clip_to_extent="1" alpha="1" name="0" force_rhr="0" type="fill">
-            <layer class="SimpleFill" pass="0" locked="0" enabled="1">
+          <symbol name="0" clip_to_extent="1" force_rhr="0" alpha="1" type="fill">
+            <layer locked="0" class="SimpleFill" enabled="1" pass="0">
               <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="color" v="145,82,45,255"/>
               <prop k="joinstyle" v="bevel"/>
@@ -320,9 +320,9 @@
               <prop k="style" v="no"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
+                  <Option name="name" value="" type="QString"/>
                   <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
+                  <Option name="type" value="collection" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -332,8 +332,8 @@
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property key="QFieldSync/action" value="no_action"/>
-        <property key="embeddedWidgets/count" value="0"/>
+        <property value="no_action" key="QFieldSync/action"/>
+        <property value="0" key="embeddedWidgets/count"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
@@ -341,21 +341,21 @@
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory sizeType="MM" minimumSize="0" maxScaleDenominator="1e+08" diagramOrientation="Up" width="15" penWidth="0" opacity="1" rotationOffset="270" backgroundColor="#ffffff" lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" penColor="#000000" scaleDependency="Area" penAlpha="255" minScaleDenominator="0" scaleBasedVisibility="0" backgroundAlpha="255" height="15" enabled="0" lineSizeType="MM" sizeScale="3x:0,0,0,0,0,0" labelPlacementMethod="XHeight">
-          <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
+        <DiagramCategory opacity="1" lineSizeScale="3x:0,0,0,0,0,0" scaleBasedVisibility="0" sizeScale="3x:0,0,0,0,0,0" height="15" scaleDependency="Area" labelPlacementMethod="XHeight" diagramOrientation="Up" penWidth="0" minimumSize="0" rotationOffset="270" sizeType="MM" barWidth="5" width="15" minScaleDenominator="0" maxScaleDenominator="1e+08" lineSizeType="MM" backgroundColor="#ffffff" penAlpha="255" backgroundAlpha="255" penColor="#000000" enabled="0">
+          <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
           <attribute label="" field="" color="#000000"/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings obstacle="0" showAll="1" placement="1" linePlacementFlags="18" priority="0" zIndex="0" dist="0">
+      <DiagramLayerSettings placement="1" linePlacementFlags="18" priority="0" dist="0" showAll="1" zIndex="0" obstacle="0">
         <properties>
           <Option type="Map">
-            <Option name="name" type="QString" value=""/>
+            <Option name="name" value="" type="QString"/>
             <Option name="properties"/>
-            <Option name="type" type="QString" value="collection"/>
+            <Option name="type" value="collection" type="QString"/>
           </Option>
         </properties>
       </DiagramLayerSettings>
-      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
         <activeChecks/>
         <checkConfiguration/>
       </geometryOptions>
@@ -390,24 +390,24 @@
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias index="0" name="" field="nom"/>
-        <alias index="1" name="" field="code_insee"/>
-        <alias index="2" name="" field="st_area_sha"/>
-        <alias index="3" name="" field="st_length_s"/>
+        <alias name="" index="0" field="nom"/>
+        <alias name="" index="1" field="code_insee"/>
+        <alias name="" index="2" field="st_area_sha"/>
+        <alias name="" index="3" field="st_length_s"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default field="nom" applyOnUpdate="0" expression=""/>
-        <default field="code_insee" applyOnUpdate="0" expression=""/>
-        <default field="st_area_sha" applyOnUpdate="0" expression=""/>
-        <default field="st_length_s" applyOnUpdate="0" expression=""/>
+        <default expression="" applyOnUpdate="0" field="nom"/>
+        <default expression="" applyOnUpdate="0" field="code_insee"/>
+        <default expression="" applyOnUpdate="0" field="st_area_sha"/>
+        <default expression="" applyOnUpdate="0" field="st_length_s"/>
       </defaults>
       <constraints>
-        <constraint notnull_strength="0" field="nom" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="code_insee" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="st_area_sha" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="st_length_s" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="nom" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="code_insee" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="st_area_sha" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="st_length_s" exp_strength="0" notnull_strength="0"/>
       </constraints>
       <constraintExpressions>
         <constraint exp="" field="nom" desc=""/>
@@ -417,15 +417,15 @@
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
         <columns>
-          <column name="nom" type="field" hidden="0" width="-1"/>
-          <column name="code_insee" type="field" hidden="0" width="-1"/>
-          <column name="st_area_sha" type="field" hidden="0" width="-1"/>
-          <column name="st_length_s" type="field" hidden="0" width="-1"/>
-          <column type="actions" hidden="1" width="-1"/>
+          <column name="nom" hidden="0" type="field" width="-1"/>
+          <column name="code_insee" hidden="0" type="field" width="-1"/>
+          <column name="st_area_sha" hidden="0" type="field" width="-1"/>
+          <column name="st_length_s" hidden="0" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -470,7 +470,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>nom</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer minScale="1e+08" simplifyDrawingTol="1" maxScale="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" simplifyLocal="1" type="vector" labelsEnabled="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" simplifyDrawingHints="0" simplifyMaxScale="1" readOnly="0" geometry="Point" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0">
+    <maplayer autoRefreshEnabled="0" styleCategories="AllStyleCategories" readOnly="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" simplifyDrawingHints="0" labelsEnabled="0" simplifyAlgorithm="0" geometry="Point" hasScaleBasedVisibilityFlag="0" type="vector" maxScale="0" simplifyDrawingTol="1" simplifyMaxScale="1" autoRefreshTime="0" simplifyLocal="1">
       <extent>
         <xmin>-1.38484598413000004</xmin>
         <ymin>47.19825272210000122</ymin>
@@ -527,7 +527,7 @@ def my_form_open(dialog, layer, feature):
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial maxy="0" minx="0" maxx="0" miny="0" minz="0" dimensions="2" maxz="0" crs=""/>
+          <spatial dimensions="2" miny="0" maxy="0" maxz="0" crs="" minx="0" maxx="0" minz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -551,10 +551,10 @@ def my_form_open(dialog, layer, feature):
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 enableorderby="0" type="singleSymbol" symbollevels="0" forceraster="0">
+      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
         <symbols>
-          <symbol clip_to_extent="1" alpha="1" name="0" force_rhr="0" type="marker">
-            <layer class="SimpleMarker" pass="0" locked="0" enabled="1">
+          <symbol name="0" clip_to_extent="1" force_rhr="0" alpha="1" type="marker">
+            <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
               <prop k="angle" v="0"/>
               <prop k="color" v="184,8,8,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
@@ -573,7 +573,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
-              <effect type="effectStack" enabled="1">
+              <effect enabled="1" type="effectStack">
                 <effect type="dropShadow">
                   <prop k="blend_mode" v="0"/>
                   <prop k="blur_level" v="2.645"/>
@@ -597,13 +597,13 @@ def my_form_open(dialog, layer, feature):
               </effect>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
+                  <Option name="name" value="" type="QString"/>
                   <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
+                  <Option name="type" value="collection" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
-            <layer class="SimpleMarker" pass="0" locked="0" enabled="1">
+            <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
               <prop k="angle" v="34"/>
               <prop k="color" v="255,0,0,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
@@ -622,7 +622,7 @@ def my_form_open(dialog, layer, feature):
               <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="size_unit" v="MM"/>
               <prop k="vertical_anchor_point" v="1"/>
-              <effect type="effectStack" enabled="0">
+              <effect enabled="0" type="effectStack">
                 <effect type="drawSource">
                   <prop k="blend_mode" v="0"/>
                   <prop k="draw_mode" v="2"/>
@@ -632,9 +632,9 @@ def my_form_open(dialog, layer, feature):
               </effect>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
+                  <Option name="name" value="" type="QString"/>
                   <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
+                  <Option name="type" value="collection" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -644,7 +644,7 @@ def my_form_open(dialog, layer, feature):
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property key="embeddedWidgets/count" value="0"/>
+        <property value="0" key="embeddedWidgets/count"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
@@ -652,21 +652,21 @@ def my_form_open(dialog, layer, feature):
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory sizeType="MM" minimumSize="0" maxScaleDenominator="1e+08" diagramOrientation="Up" width="15" penWidth="0" opacity="1" rotationOffset="270" backgroundColor="#ffffff" lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" penColor="#000000" scaleDependency="Area" penAlpha="255" minScaleDenominator="0" scaleBasedVisibility="0" backgroundAlpha="255" height="15" enabled="0" lineSizeType="MM" sizeScale="3x:0,0,0,0,0,0" labelPlacementMethod="XHeight">
-          <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+        <DiagramCategory opacity="1" lineSizeScale="3x:0,0,0,0,0,0" scaleBasedVisibility="0" sizeScale="3x:0,0,0,0,0,0" height="15" scaleDependency="Area" labelPlacementMethod="XHeight" diagramOrientation="Up" penWidth="0" minimumSize="0" rotationOffset="270" sizeType="MM" barWidth="5" width="15" minScaleDenominator="0" maxScaleDenominator="1e+08" lineSizeType="MM" backgroundColor="#ffffff" penAlpha="255" backgroundAlpha="255" penColor="#000000" enabled="0">
+          <fontProperties style="" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0"/>
           <attribute label="" field="" color="#000000"/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings obstacle="0" showAll="1" placement="0" linePlacementFlags="18" priority="0" zIndex="0" dist="0">
+      <DiagramLayerSettings placement="0" linePlacementFlags="18" priority="0" dist="0" showAll="1" zIndex="0" obstacle="0">
         <properties>
           <Option type="Map">
-            <Option name="name" type="QString" value=""/>
+            <Option name="name" value="" type="QString"/>
             <Option name="properties"/>
-            <Option name="type" type="QString" value="collection"/>
+            <Option name="type" value="collection" type="QString"/>
           </Option>
         </properties>
       </DiagramLayerSettings>
-      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
         <activeChecks/>
         <checkConfiguration/>
       </geometryOptions>
@@ -904,111 +904,111 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias index="0" name="" field="id_acciden"/>
-        <alias index="1" name="" field="org_unit_p"/>
-        <alias index="2" name="" field="date"/>
-        <alias index="3" name="" field="heure"/>
-        <alias index="4" name="" field="datetime"/>
-        <alias index="5" name="" field="nom"/>
-        <alias index="6" name="" field="nlieu"/>
-        <alias index="7" name="" field="nusa"/>
-        <alias index="8" name="" field="nveh"/>
-        <alias index="9" name="" field="n2rl"/>
-        <alias index="10" name="" field="n2rm"/>
-        <alias index="11" name="" field="nvl"/>
-        <alias index="12" name="" field="npl"/>
-        <alias index="13" name="" field="ntu"/>
-        <alias index="14" name="" field="ntup"/>
-        <alias index="15" name="" field="ntu2rl"/>
-        <alias index="16" name="" field="ntu2rm"/>
-        <alias index="17" name="" field="ntuvl"/>
-        <alias index="18" name="" field="ntupl"/>
-        <alias index="19" name="" field="nbh"/>
-        <alias index="20" name="" field="nbhp"/>
-        <alias index="21" name="" field="nbh2rl"/>
-        <alias index="22" name="" field="nbh2rm"/>
-        <alias index="23" name="" field="nbhvl"/>
-        <alias index="24" name="" field="nbhpl"/>
-        <alias index="25" name="" field="nbl"/>
-        <alias index="26" name="" field="nblp"/>
-        <alias index="27" name="" field="nbl2rl"/>
-        <alias index="28" name="" field="nbl2rm"/>
-        <alias index="29" name="" field="nblvl"/>
-        <alias index="30" name="" field="nblpl"/>
-        <alias index="31" name="" field="nind"/>
-        <alias index="32" name="" field="insee_com"/>
+        <alias name="" index="0" field="id_acciden"/>
+        <alias name="" index="1" field="org_unit_p"/>
+        <alias name="" index="2" field="date"/>
+        <alias name="" index="3" field="heure"/>
+        <alias name="" index="4" field="datetime"/>
+        <alias name="" index="5" field="nom"/>
+        <alias name="" index="6" field="nlieu"/>
+        <alias name="" index="7" field="nusa"/>
+        <alias name="" index="8" field="nveh"/>
+        <alias name="" index="9" field="n2rl"/>
+        <alias name="" index="10" field="n2rm"/>
+        <alias name="" index="11" field="nvl"/>
+        <alias name="" index="12" field="npl"/>
+        <alias name="" index="13" field="ntu"/>
+        <alias name="" index="14" field="ntup"/>
+        <alias name="" index="15" field="ntu2rl"/>
+        <alias name="" index="16" field="ntu2rm"/>
+        <alias name="" index="17" field="ntuvl"/>
+        <alias name="" index="18" field="ntupl"/>
+        <alias name="" index="19" field="nbh"/>
+        <alias name="" index="20" field="nbhp"/>
+        <alias name="" index="21" field="nbh2rl"/>
+        <alias name="" index="22" field="nbh2rm"/>
+        <alias name="" index="23" field="nbhvl"/>
+        <alias name="" index="24" field="nbhpl"/>
+        <alias name="" index="25" field="nbl"/>
+        <alias name="" index="26" field="nblp"/>
+        <alias name="" index="27" field="nbl2rl"/>
+        <alias name="" index="28" field="nbl2rm"/>
+        <alias name="" index="29" field="nblvl"/>
+        <alias name="" index="30" field="nblpl"/>
+        <alias name="" index="31" field="nind"/>
+        <alias name="" index="32" field="insee_com"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default field="id_acciden" applyOnUpdate="0" expression=""/>
-        <default field="org_unit_p" applyOnUpdate="0" expression=""/>
-        <default field="date" applyOnUpdate="0" expression=""/>
-        <default field="heure" applyOnUpdate="0" expression=""/>
-        <default field="datetime" applyOnUpdate="0" expression=""/>
-        <default field="nom" applyOnUpdate="0" expression=""/>
-        <default field="nlieu" applyOnUpdate="0" expression=""/>
-        <default field="nusa" applyOnUpdate="0" expression=""/>
-        <default field="nveh" applyOnUpdate="0" expression=""/>
-        <default field="n2rl" applyOnUpdate="0" expression=""/>
-        <default field="n2rm" applyOnUpdate="0" expression=""/>
-        <default field="nvl" applyOnUpdate="0" expression=""/>
-        <default field="npl" applyOnUpdate="0" expression=""/>
-        <default field="ntu" applyOnUpdate="0" expression=""/>
-        <default field="ntup" applyOnUpdate="0" expression=""/>
-        <default field="ntu2rl" applyOnUpdate="0" expression=""/>
-        <default field="ntu2rm" applyOnUpdate="0" expression=""/>
-        <default field="ntuvl" applyOnUpdate="0" expression=""/>
-        <default field="ntupl" applyOnUpdate="0" expression=""/>
-        <default field="nbh" applyOnUpdate="0" expression=""/>
-        <default field="nbhp" applyOnUpdate="0" expression=""/>
-        <default field="nbh2rl" applyOnUpdate="0" expression=""/>
-        <default field="nbh2rm" applyOnUpdate="0" expression=""/>
-        <default field="nbhvl" applyOnUpdate="0" expression=""/>
-        <default field="nbhpl" applyOnUpdate="0" expression=""/>
-        <default field="nbl" applyOnUpdate="0" expression=""/>
-        <default field="nblp" applyOnUpdate="0" expression=""/>
-        <default field="nbl2rl" applyOnUpdate="0" expression=""/>
-        <default field="nbl2rm" applyOnUpdate="0" expression=""/>
-        <default field="nblvl" applyOnUpdate="0" expression=""/>
-        <default field="nblpl" applyOnUpdate="0" expression=""/>
-        <default field="nind" applyOnUpdate="0" expression=""/>
-        <default field="insee_com" applyOnUpdate="0" expression=""/>
+        <default expression="" applyOnUpdate="0" field="id_acciden"/>
+        <default expression="" applyOnUpdate="0" field="org_unit_p"/>
+        <default expression="" applyOnUpdate="0" field="date"/>
+        <default expression="" applyOnUpdate="0" field="heure"/>
+        <default expression="" applyOnUpdate="0" field="datetime"/>
+        <default expression="" applyOnUpdate="0" field="nom"/>
+        <default expression="" applyOnUpdate="0" field="nlieu"/>
+        <default expression="" applyOnUpdate="0" field="nusa"/>
+        <default expression="" applyOnUpdate="0" field="nveh"/>
+        <default expression="" applyOnUpdate="0" field="n2rl"/>
+        <default expression="" applyOnUpdate="0" field="n2rm"/>
+        <default expression="" applyOnUpdate="0" field="nvl"/>
+        <default expression="" applyOnUpdate="0" field="npl"/>
+        <default expression="" applyOnUpdate="0" field="ntu"/>
+        <default expression="" applyOnUpdate="0" field="ntup"/>
+        <default expression="" applyOnUpdate="0" field="ntu2rl"/>
+        <default expression="" applyOnUpdate="0" field="ntu2rm"/>
+        <default expression="" applyOnUpdate="0" field="ntuvl"/>
+        <default expression="" applyOnUpdate="0" field="ntupl"/>
+        <default expression="" applyOnUpdate="0" field="nbh"/>
+        <default expression="" applyOnUpdate="0" field="nbhp"/>
+        <default expression="" applyOnUpdate="0" field="nbh2rl"/>
+        <default expression="" applyOnUpdate="0" field="nbh2rm"/>
+        <default expression="" applyOnUpdate="0" field="nbhvl"/>
+        <default expression="" applyOnUpdate="0" field="nbhpl"/>
+        <default expression="" applyOnUpdate="0" field="nbl"/>
+        <default expression="" applyOnUpdate="0" field="nblp"/>
+        <default expression="" applyOnUpdate="0" field="nbl2rl"/>
+        <default expression="" applyOnUpdate="0" field="nbl2rm"/>
+        <default expression="" applyOnUpdate="0" field="nblvl"/>
+        <default expression="" applyOnUpdate="0" field="nblpl"/>
+        <default expression="" applyOnUpdate="0" field="nind"/>
+        <default expression="" applyOnUpdate="0" field="insee_com"/>
       </defaults>
       <constraints>
-        <constraint notnull_strength="0" field="id_acciden" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="org_unit_p" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="date" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="heure" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="datetime" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="nom" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="nlieu" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="nusa" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="nveh" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="n2rl" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="n2rm" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="nvl" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="npl" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="ntu" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="ntup" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="ntu2rl" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="ntu2rm" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="ntuvl" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="ntupl" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="nbh" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="nbhp" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="nbh2rl" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="nbh2rm" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="nbhvl" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="nbhpl" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="nbl" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="nblp" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="nbl2rl" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="nbl2rm" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="nblvl" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="nblpl" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="nind" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="insee_com" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="id_acciden" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="org_unit_p" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="date" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="heure" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="datetime" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="nom" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="nlieu" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="nusa" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="nveh" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="n2rl" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="n2rm" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="nvl" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="npl" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="ntu" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="ntup" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="ntu2rl" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="ntu2rm" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="ntuvl" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="ntupl" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="nbh" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="nbhp" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="nbh2rl" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="nbh2rm" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="nbhvl" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="nbhpl" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="nbl" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="nblp" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="nbl2rl" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="nbl2rm" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="nblvl" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="nblpl" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="nind" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="insee_com" exp_strength="0" notnull_strength="0"/>
       </constraints>
       <constraintExpressions>
         <constraint exp="" field="id_acciden" desc=""/>
@@ -1047,44 +1047,44 @@ def my_form_open(dialog, layer, feature):
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
         <columns>
-          <column name="id_acciden" type="field" hidden="0" width="-1"/>
-          <column name="org_unit_p" type="field" hidden="0" width="-1"/>
-          <column name="date" type="field" hidden="0" width="-1"/>
-          <column name="heure" type="field" hidden="0" width="-1"/>
-          <column name="datetime" type="field" hidden="0" width="-1"/>
-          <column name="nom" type="field" hidden="0" width="-1"/>
-          <column name="nlieu" type="field" hidden="0" width="-1"/>
-          <column name="nusa" type="field" hidden="0" width="-1"/>
-          <column name="nveh" type="field" hidden="0" width="-1"/>
-          <column name="n2rl" type="field" hidden="0" width="-1"/>
-          <column name="n2rm" type="field" hidden="0" width="-1"/>
-          <column name="nvl" type="field" hidden="0" width="-1"/>
-          <column name="npl" type="field" hidden="0" width="-1"/>
-          <column name="ntu" type="field" hidden="0" width="-1"/>
-          <column name="ntup" type="field" hidden="0" width="-1"/>
-          <column name="ntu2rl" type="field" hidden="0" width="-1"/>
-          <column name="ntu2rm" type="field" hidden="0" width="-1"/>
-          <column name="ntuvl" type="field" hidden="0" width="-1"/>
-          <column name="ntupl" type="field" hidden="0" width="-1"/>
-          <column name="nbh" type="field" hidden="0" width="-1"/>
-          <column name="nbhp" type="field" hidden="0" width="-1"/>
-          <column name="nbh2rl" type="field" hidden="0" width="-1"/>
-          <column name="nbh2rm" type="field" hidden="0" width="-1"/>
-          <column name="nbhvl" type="field" hidden="0" width="-1"/>
-          <column name="nbhpl" type="field" hidden="0" width="-1"/>
-          <column name="nbl" type="field" hidden="0" width="-1"/>
-          <column name="nblp" type="field" hidden="0" width="-1"/>
-          <column name="nbl2rl" type="field" hidden="0" width="-1"/>
-          <column name="nbl2rm" type="field" hidden="0" width="-1"/>
-          <column name="nblvl" type="field" hidden="0" width="-1"/>
-          <column name="nblpl" type="field" hidden="0" width="-1"/>
-          <column name="nind" type="field" hidden="0" width="-1"/>
-          <column name="insee_com" type="field" hidden="0" width="-1"/>
-          <column type="actions" hidden="1" width="-1"/>
+          <column name="id_acciden" hidden="0" type="field" width="-1"/>
+          <column name="org_unit_p" hidden="0" type="field" width="-1"/>
+          <column name="date" hidden="0" type="field" width="-1"/>
+          <column name="heure" hidden="0" type="field" width="-1"/>
+          <column name="datetime" hidden="0" type="field" width="-1"/>
+          <column name="nom" hidden="0" type="field" width="-1"/>
+          <column name="nlieu" hidden="0" type="field" width="-1"/>
+          <column name="nusa" hidden="0" type="field" width="-1"/>
+          <column name="nveh" hidden="0" type="field" width="-1"/>
+          <column name="n2rl" hidden="0" type="field" width="-1"/>
+          <column name="n2rm" hidden="0" type="field" width="-1"/>
+          <column name="nvl" hidden="0" type="field" width="-1"/>
+          <column name="npl" hidden="0" type="field" width="-1"/>
+          <column name="ntu" hidden="0" type="field" width="-1"/>
+          <column name="ntup" hidden="0" type="field" width="-1"/>
+          <column name="ntu2rl" hidden="0" type="field" width="-1"/>
+          <column name="ntu2rm" hidden="0" type="field" width="-1"/>
+          <column name="ntuvl" hidden="0" type="field" width="-1"/>
+          <column name="ntupl" hidden="0" type="field" width="-1"/>
+          <column name="nbh" hidden="0" type="field" width="-1"/>
+          <column name="nbhp" hidden="0" type="field" width="-1"/>
+          <column name="nbh2rl" hidden="0" type="field" width="-1"/>
+          <column name="nbh2rm" hidden="0" type="field" width="-1"/>
+          <column name="nbhvl" hidden="0" type="field" width="-1"/>
+          <column name="nbhpl" hidden="0" type="field" width="-1"/>
+          <column name="nbl" hidden="0" type="field" width="-1"/>
+          <column name="nblp" hidden="0" type="field" width="-1"/>
+          <column name="nbl2rl" hidden="0" type="field" width="-1"/>
+          <column name="nbl2rm" hidden="0" type="field" width="-1"/>
+          <column name="nblvl" hidden="0" type="field" width="-1"/>
+          <column name="nblpl" hidden="0" type="field" width="-1"/>
+          <column name="nind" hidden="0" type="field" width="-1"/>
+          <column name="insee_com" hidden="0" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -1187,7 +1187,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>id_acciden</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer minScale="1e+08" simplifyDrawingTol="1" maxScale="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" simplifyLocal="1" type="vector" labelsEnabled="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" simplifyDrawingHints="0" simplifyMaxScale="1" readOnly="0" geometry="Point" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0">
+    <maplayer autoRefreshEnabled="0" styleCategories="AllStyleCategories" readOnly="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" simplifyDrawingHints="0" labelsEnabled="0" simplifyAlgorithm="0" geometry="Point" hasScaleBasedVisibilityFlag="0" type="vector" maxScale="0" simplifyDrawingTol="1" simplifyMaxScale="1" autoRefreshTime="0" simplifyLocal="1">
       <extent>
         <xmin>-1.34917574750696057</xmin>
         <ymin>47.23679347773618531</ymin>
@@ -1244,7 +1244,7 @@ def my_form_open(dialog, layer, feature):
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial maxy="0" minx="0" maxx="0" miny="0" minz="0" dimensions="2" maxz="0" crs=""/>
+          <spatial dimensions="2" miny="0" maxy="0" maxz="0" crs="" minx="0" maxx="0" minz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -1268,10 +1268,10 @@ def my_form_open(dialog, layer, feature):
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 enableorderby="0" type="singleSymbol" symbollevels="0" forceraster="0">
+      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
         <symbols>
-          <symbol clip_to_extent="1" alpha="1" name="0" force_rhr="0" type="marker">
-            <layer class="SimpleMarker" pass="0" locked="0" enabled="1">
+          <symbol name="0" clip_to_extent="1" force_rhr="0" alpha="1" type="marker">
+            <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
               <prop k="angle" v="0"/>
               <prop k="color" v="51,160,44,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
@@ -1292,9 +1292,9 @@ def my_form_open(dialog, layer, feature):
               <prop k="vertical_anchor_point" v="1"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
+                  <Option name="name" value="" type="QString"/>
                   <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
+                  <Option name="type" value="collection" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -1304,7 +1304,7 @@ def my_form_open(dialog, layer, feature):
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property key="embeddedWidgets/count" value="0"/>
+        <property value="0" key="embeddedWidgets/count"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
@@ -1312,21 +1312,21 @@ def my_form_open(dialog, layer, feature):
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory sizeType="MM" minimumSize="0" maxScaleDenominator="1e+08" diagramOrientation="Up" width="15" penWidth="0" opacity="1" rotationOffset="270" backgroundColor="#ffffff" lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" penColor="#000000" scaleDependency="Area" penAlpha="255" minScaleDenominator="0" scaleBasedVisibility="0" backgroundAlpha="255" height="15" enabled="0" lineSizeType="MM" sizeScale="3x:0,0,0,0,0,0" labelPlacementMethod="XHeight">
-          <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+        <DiagramCategory opacity="1" lineSizeScale="3x:0,0,0,0,0,0" scaleBasedVisibility="0" sizeScale="3x:0,0,0,0,0,0" height="15" scaleDependency="Area" labelPlacementMethod="XHeight" diagramOrientation="Up" penWidth="0" minimumSize="0" rotationOffset="270" sizeType="MM" barWidth="5" width="15" minScaleDenominator="0" maxScaleDenominator="1e+08" lineSizeType="MM" backgroundColor="#ffffff" penAlpha="255" backgroundAlpha="255" penColor="#000000" enabled="0">
+          <fontProperties style="" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0"/>
           <attribute label="" field="" color="#000000"/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings obstacle="0" showAll="1" placement="0" linePlacementFlags="18" priority="0" zIndex="0" dist="0">
+      <DiagramLayerSettings placement="0" linePlacementFlags="18" priority="0" dist="0" showAll="1" zIndex="0" obstacle="0">
         <properties>
           <Option type="Map">
-            <Option name="name" type="QString" value=""/>
+            <Option name="name" value="" type="QString"/>
             <Option name="properties"/>
-            <Option name="type" type="QString" value="collection"/>
+            <Option name="type" value="collection" type="QString"/>
           </Option>
         </properties>
       </DiagramLayerSettings>
-      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
         <activeChecks/>
         <checkConfiguration/>
       </geometryOptions>
@@ -1354,21 +1354,21 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias index="0" name="" field="id"/>
-        <alias index="1" name="" field="Nb_borne"/>
-        <alias index="2" name="" field="Descriptio"/>
+        <alias name="" index="0" field="id"/>
+        <alias name="" index="1" field="Nb_borne"/>
+        <alias name="" index="2" field="Descriptio"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default field="id" applyOnUpdate="0" expression=""/>
-        <default field="Nb_borne" applyOnUpdate="0" expression=""/>
-        <default field="Descriptio" applyOnUpdate="0" expression=""/>
+        <default expression="" applyOnUpdate="0" field="id"/>
+        <default expression="" applyOnUpdate="0" field="Nb_borne"/>
+        <default expression="" applyOnUpdate="0" field="Descriptio"/>
       </defaults>
       <constraints>
-        <constraint notnull_strength="0" field="id" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="Nb_borne" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="Descriptio" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="id" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="Nb_borne" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="Descriptio" exp_strength="0" notnull_strength="0"/>
       </constraints>
       <constraintExpressions>
         <constraint exp="" field="id" desc=""/>
@@ -1377,14 +1377,14 @@ def my_form_open(dialog, layer, feature):
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
         <columns>
-          <column name="id" type="field" hidden="0" width="-1"/>
-          <column name="Nb_borne" type="field" hidden="0" width="-1"/>
-          <column name="Descriptio" type="field" hidden="0" width="-1"/>
-          <column type="actions" hidden="1" width="-1"/>
+          <column name="id" hidden="0" type="field" width="-1"/>
+          <column name="Nb_borne" hidden="0" type="field" width="-1"/>
+          <column name="Descriptio" hidden="0" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -1427,7 +1427,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>id</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer minScale="1e+08" maxScale="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" type="raster" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0">
+    <maplayer autoRefreshEnabled="0" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" hasScaleBasedVisibilityFlag="0" type="raster" maxScale="0" autoRefreshTime="0">
       <extent>
         <xmin>-158987.49749539900221862</xmin>
         <ymin>5967189.65748213045299053</ymin>
@@ -1442,7 +1442,7 @@ def my_form_open(dialog, layer, feature):
       <layername>Fond de carte</layername>
       <srs>
         <spatialrefsys>
-          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
           <srsid>3857</srsid>
           <srid>3857</srid>
           <authid>EPSG:3857</authid>
@@ -1492,10 +1492,10 @@ def my_form_open(dialog, layer, feature):
         <Searchable>1</Searchable>
       </flags>
       <customproperties>
-        <property key="identify/format" value="Value"/>
+        <property value="Value" key="identify/format"/>
       </customproperties>
       <pipe>
-        <rasterrenderer greenBand="2" blueBand="3" type="multibandcolor" redBand="1" alphaBand="4" opacity="1">
+        <rasterrenderer alphaBand="4" opacity="1" blueBand="3" type="multibandcolor" redBand="1" greenBand="2">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>MinMax</limits>
@@ -1522,12 +1522,12 @@ def my_form_open(dialog, layer, feature):
           </blueContrastEnhancement>
         </rasterrenderer>
         <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation colorizeOn="0" colorizeGreen="128" colorizeRed="255" colorizeStrength="100" grayscaleMode="0" colorizeBlue="128" saturation="0"/>
+        <huesaturation colorizeBlue="128" colorizeStrength="100" grayscaleMode="0" colorizeOn="0" saturation="0" colorizeRed="255" colorizeGreen="128"/>
         <rasterresampler zoomedInResampler="cubic" zoomedOutResampler="bilinear" maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minScale="1e+08" maxScale="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" type="raster" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0">
+    <maplayer autoRefreshEnabled="0" styleCategories="AllStyleCategories" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" hasScaleBasedVisibilityFlag="0" type="raster" maxScale="0" autoRefreshTime="0">
       <extent>
         <xmin>-20037508.34278924390673637</xmin>
         <ymin>-20037508.34278925508260727</ymin>
@@ -1542,7 +1542,7 @@ def my_form_open(dialog, layer, feature):
       <layername>OpenStreetMap</layername>
       <srs>
         <spatialrefsys>
-          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
           <srsid>3857</srsid>
           <srid>3857</srid>
           <authid>EPSG:3857</authid>
@@ -1589,12 +1589,12 @@ def my_form_open(dialog, layer, feature):
         <Searchable>0</Searchable>
       </flags>
       <customproperties>
-        <property key="QFieldSync/action" value="no_action"/>
-        <property key="identify/format" value="Undefined"/>
-        <property key="ol_layer_type" value="OpenStreetMap"/>
+        <property value="no_action" key="QFieldSync/action"/>
+        <property value="Undefined" key="identify/format"/>
+        <property value="OpenStreetMap" key="ol_layer_type"/>
       </customproperties>
       <pipe>
-        <rasterrenderer type="singlebandcolordata" alphaBand="-1" opacity="1" band="1">
+        <rasterrenderer alphaBand="-1" opacity="1" band="1" type="singlebandcolordata">
           <rasterTransparency/>
           <minMaxOrigin>
             <limits>None</limits>
@@ -1606,12 +1606,12 @@ def my_form_open(dialog, layer, feature):
           </minMaxOrigin>
         </rasterrenderer>
         <brightnesscontrast contrast="0" brightness="0"/>
-        <huesaturation colorizeOn="0" colorizeGreen="128" colorizeRed="255" colorizeStrength="100" grayscaleMode="0" colorizeBlue="128" saturation="0"/>
+        <huesaturation colorizeBlue="128" colorizeStrength="100" grayscaleMode="0" colorizeOn="0" saturation="0" colorizeRed="255" colorizeGreen="128"/>
         <rasterresampler maxOversampling="2"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minScale="1e+08" simplifyDrawingTol="1" maxScale="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" simplifyLocal="1" type="vector" labelsEnabled="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" simplifyDrawingHints="0" simplifyMaxScale="1" readOnly="0" geometry="Point" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0">
+    <maplayer autoRefreshEnabled="0" styleCategories="AllStyleCategories" readOnly="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" simplifyDrawingHints="0" labelsEnabled="0" simplifyAlgorithm="0" geometry="Point" hasScaleBasedVisibilityFlag="0" type="vector" maxScale="0" simplifyDrawingTol="1" simplifyMaxScale="1" autoRefreshTime="0" simplifyLocal="1">
       <extent>
         <xmin>370295</xmin>
         <ymin>6689800</ymin>
@@ -1664,11 +1664,11 @@ def my_form_open(dialog, layer, feature):
             <description></description>
             <projectionacronym></projectionacronym>
             <ellipsoidacronym></ellipsoidacronym>
-            <geographicflag>false</geographicflag>
+            <geographicflag>true</geographicflag>
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial maxy="0" minx="0" maxx="0" miny="0" minz="0" dimensions="2" maxz="0" crs=""/>
+          <spatial dimensions="2" miny="0" maxy="0" maxz="0" crs="" minx="0" maxx="0" minz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -1692,10 +1692,10 @@ def my_form_open(dialog, layer, feature):
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 enableorderby="0" type="singleSymbol" symbollevels="0" forceraster="0">
+      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
         <symbols>
-          <symbol clip_to_extent="1" alpha="1" name="0" force_rhr="0" type="marker">
-            <layer class="SvgMarker" pass="0" locked="0" enabled="1">
+          <symbol name="0" clip_to_extent="1" force_rhr="0" alpha="1" type="marker">
+            <layer locked="0" class="SvgMarker" enabled="1" pass="0">
               <prop k="angle" v="0"/>
               <prop k="color" v="0,0,0,255"/>
               <prop k="fixedAspectRatio" v="0"/>
@@ -1715,9 +1715,9 @@ def my_form_open(dialog, layer, feature):
               <prop k="vertical_anchor_point" v="1"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
+                  <Option name="name" value="" type="QString"/>
                   <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
+                  <Option name="type" value="collection" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -1727,7 +1727,7 @@ def my_form_open(dialog, layer, feature):
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property key="embeddedWidgets/count" value="0"/>
+        <property value="0" key="embeddedWidgets/count"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
@@ -1735,21 +1735,21 @@ def my_form_open(dialog, layer, feature):
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory sizeType="MM" minimumSize="0" maxScaleDenominator="1e+08" diagramOrientation="Up" width="15" penWidth="0" opacity="1" rotationOffset="270" backgroundColor="#ffffff" lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" penColor="#000000" scaleDependency="Area" penAlpha="255" minScaleDenominator="0" scaleBasedVisibility="0" backgroundAlpha="255" height="15" enabled="0" lineSizeType="MM" sizeScale="3x:0,0,0,0,0,0" labelPlacementMethod="XHeight">
-          <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+        <DiagramCategory opacity="1" lineSizeScale="3x:0,0,0,0,0,0" scaleBasedVisibility="0" sizeScale="3x:0,0,0,0,0,0" height="15" scaleDependency="Area" labelPlacementMethod="XHeight" diagramOrientation="Up" penWidth="0" minimumSize="0" rotationOffset="270" sizeType="MM" barWidth="5" width="15" minScaleDenominator="0" maxScaleDenominator="1e+08" lineSizeType="MM" backgroundColor="#ffffff" penAlpha="255" backgroundAlpha="255" penColor="#000000" enabled="0">
+          <fontProperties style="" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0"/>
           <attribute label="" field="" color="#000000"/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings obstacle="0" showAll="1" placement="0" linePlacementFlags="18" priority="0" zIndex="0" dist="0">
+      <DiagramLayerSettings placement="0" linePlacementFlags="18" priority="0" dist="0" showAll="1" zIndex="0" obstacle="0">
         <properties>
           <Option type="Map">
-            <Option name="name" type="QString" value=""/>
+            <Option name="name" value="" type="QString"/>
             <Option name="properties"/>
-            <Option name="type" type="QString" value="collection"/>
+            <Option name="type" value="collection" type="QString"/>
           </Option>
         </properties>
       </DiagramLayerSettings>
-      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
         <activeChecks/>
         <checkConfiguration/>
       </geometryOptions>
@@ -1945,93 +1945,93 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias index="0" name="" field="fid"/>
-        <alias index="1" name="" field="id"/>
-        <alias index="2" name="" field="name"/>
-        <alias index="3" name="" field="latitude"/>
-        <alias index="4" name="" field="longitude"/>
-        <alias index="5" name="" field="srsname"/>
-        <alias index="6" name="" field="postalreg_"/>
-        <alias index="7" name="" field="siteref"/>
-        <alias index="8" name="" field="transpmod_"/>
-        <alias index="9" name="" field="gml_pos"/>
-        <alias index="10" name="" field="street"/>
-        <alias index="11" name="" field="wheelchac_"/>
-        <alias index="12" name="" field="privatcod_"/>
-        <alias index="13" name="" field="publiccode"/>
-        <alias index="14" name="" field="descripti_"/>
-        <alias index="15" name="" field="tariffzon_"/>
-        <alias index="16" name="" field="url"/>
-        <alias index="17" name="" field="fournisse_"/>
-        <alias index="18" name="" field="dern_maj"/>
-        <alias index="19" name="" field="nbhab_300m"/>
-        <alias index="20" name="" field="min_time"/>
-        <alias index="21" name="" field="max_time"/>
-        <alias index="22" name="" field="amplitude"/>
-        <alias index="23" name="" field="nbpas_intr"/>
-        <alias index="24" name="" field="nbpas_pnte"/>
-        <alias index="25" name="" field="nbpas_crse"/>
-        <alias index="26" name="" field="nbpas_tot"/>
+        <alias name="" index="0" field="fid"/>
+        <alias name="" index="1" field="id"/>
+        <alias name="" index="2" field="name"/>
+        <alias name="" index="3" field="latitude"/>
+        <alias name="" index="4" field="longitude"/>
+        <alias name="" index="5" field="srsname"/>
+        <alias name="" index="6" field="postalreg_"/>
+        <alias name="" index="7" field="siteref"/>
+        <alias name="" index="8" field="transpmod_"/>
+        <alias name="" index="9" field="gml_pos"/>
+        <alias name="" index="10" field="street"/>
+        <alias name="" index="11" field="wheelchac_"/>
+        <alias name="" index="12" field="privatcod_"/>
+        <alias name="" index="13" field="publiccode"/>
+        <alias name="" index="14" field="descripti_"/>
+        <alias name="" index="15" field="tariffzon_"/>
+        <alias name="" index="16" field="url"/>
+        <alias name="" index="17" field="fournisse_"/>
+        <alias name="" index="18" field="dern_maj"/>
+        <alias name="" index="19" field="nbhab_300m"/>
+        <alias name="" index="20" field="min_time"/>
+        <alias name="" index="21" field="max_time"/>
+        <alias name="" index="22" field="amplitude"/>
+        <alias name="" index="23" field="nbpas_intr"/>
+        <alias name="" index="24" field="nbpas_pnte"/>
+        <alias name="" index="25" field="nbpas_crse"/>
+        <alias name="" index="26" field="nbpas_tot"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default field="fid" applyOnUpdate="0" expression=""/>
-        <default field="id" applyOnUpdate="0" expression=""/>
-        <default field="name" applyOnUpdate="0" expression=""/>
-        <default field="latitude" applyOnUpdate="0" expression=""/>
-        <default field="longitude" applyOnUpdate="0" expression=""/>
-        <default field="srsname" applyOnUpdate="0" expression=""/>
-        <default field="postalreg_" applyOnUpdate="0" expression=""/>
-        <default field="siteref" applyOnUpdate="0" expression=""/>
-        <default field="transpmod_" applyOnUpdate="0" expression=""/>
-        <default field="gml_pos" applyOnUpdate="0" expression=""/>
-        <default field="street" applyOnUpdate="0" expression=""/>
-        <default field="wheelchac_" applyOnUpdate="0" expression=""/>
-        <default field="privatcod_" applyOnUpdate="0" expression=""/>
-        <default field="publiccode" applyOnUpdate="0" expression=""/>
-        <default field="descripti_" applyOnUpdate="0" expression=""/>
-        <default field="tariffzon_" applyOnUpdate="0" expression=""/>
-        <default field="url" applyOnUpdate="0" expression=""/>
-        <default field="fournisse_" applyOnUpdate="0" expression=""/>
-        <default field="dern_maj" applyOnUpdate="0" expression=""/>
-        <default field="nbhab_300m" applyOnUpdate="0" expression=""/>
-        <default field="min_time" applyOnUpdate="0" expression=""/>
-        <default field="max_time" applyOnUpdate="0" expression=""/>
-        <default field="amplitude" applyOnUpdate="0" expression=""/>
-        <default field="nbpas_intr" applyOnUpdate="0" expression=""/>
-        <default field="nbpas_pnte" applyOnUpdate="0" expression=""/>
-        <default field="nbpas_crse" applyOnUpdate="0" expression=""/>
-        <default field="nbpas_tot" applyOnUpdate="0" expression=""/>
+        <default expression="" applyOnUpdate="0" field="fid"/>
+        <default expression="" applyOnUpdate="0" field="id"/>
+        <default expression="" applyOnUpdate="0" field="name"/>
+        <default expression="" applyOnUpdate="0" field="latitude"/>
+        <default expression="" applyOnUpdate="0" field="longitude"/>
+        <default expression="" applyOnUpdate="0" field="srsname"/>
+        <default expression="" applyOnUpdate="0" field="postalreg_"/>
+        <default expression="" applyOnUpdate="0" field="siteref"/>
+        <default expression="" applyOnUpdate="0" field="transpmod_"/>
+        <default expression="" applyOnUpdate="0" field="gml_pos"/>
+        <default expression="" applyOnUpdate="0" field="street"/>
+        <default expression="" applyOnUpdate="0" field="wheelchac_"/>
+        <default expression="" applyOnUpdate="0" field="privatcod_"/>
+        <default expression="" applyOnUpdate="0" field="publiccode"/>
+        <default expression="" applyOnUpdate="0" field="descripti_"/>
+        <default expression="" applyOnUpdate="0" field="tariffzon_"/>
+        <default expression="" applyOnUpdate="0" field="url"/>
+        <default expression="" applyOnUpdate="0" field="fournisse_"/>
+        <default expression="" applyOnUpdate="0" field="dern_maj"/>
+        <default expression="" applyOnUpdate="0" field="nbhab_300m"/>
+        <default expression="" applyOnUpdate="0" field="min_time"/>
+        <default expression="" applyOnUpdate="0" field="max_time"/>
+        <default expression="" applyOnUpdate="0" field="amplitude"/>
+        <default expression="" applyOnUpdate="0" field="nbpas_intr"/>
+        <default expression="" applyOnUpdate="0" field="nbpas_pnte"/>
+        <default expression="" applyOnUpdate="0" field="nbpas_crse"/>
+        <default expression="" applyOnUpdate="0" field="nbpas_tot"/>
       </defaults>
       <constraints>
-        <constraint notnull_strength="1" field="fid" constraints="3" exp_strength="0" unique_strength="1"/>
-        <constraint notnull_strength="0" field="id" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="name" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="latitude" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="longitude" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="srsname" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="postalreg_" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="siteref" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="transpmod_" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="gml_pos" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="street" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="wheelchac_" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="privatcod_" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="publiccode" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="descripti_" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="tariffzon_" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="url" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="fournisse_" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="dern_maj" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="nbhab_300m" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="min_time" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="max_time" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="amplitude" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="nbpas_intr" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="nbpas_pnte" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="nbpas_crse" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="nbpas_tot" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint constraints="3" unique_strength="1" field="fid" exp_strength="0" notnull_strength="1"/>
+        <constraint constraints="0" unique_strength="0" field="id" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="name" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="latitude" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="longitude" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="srsname" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="postalreg_" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="siteref" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="transpmod_" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="gml_pos" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="street" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="wheelchac_" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="privatcod_" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="publiccode" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="descripti_" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="tariffzon_" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="url" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="fournisse_" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="dern_maj" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="nbhab_300m" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="min_time" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="max_time" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="amplitude" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="nbpas_intr" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="nbpas_pnte" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="nbpas_crse" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="nbpas_tot" exp_strength="0" notnull_strength="0"/>
       </constraints>
       <constraintExpressions>
         <constraint exp="" field="fid" desc=""/>
@@ -2064,38 +2064,38 @@ def my_form_open(dialog, layer, feature):
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
         <columns>
-          <column name="fid" type="field" hidden="0" width="-1"/>
-          <column name="id" type="field" hidden="0" width="-1"/>
-          <column name="name" type="field" hidden="0" width="-1"/>
-          <column name="latitude" type="field" hidden="0" width="-1"/>
-          <column name="longitude" type="field" hidden="0" width="-1"/>
-          <column name="srsname" type="field" hidden="0" width="-1"/>
-          <column name="postalreg_" type="field" hidden="0" width="-1"/>
-          <column name="siteref" type="field" hidden="0" width="-1"/>
-          <column name="transpmod_" type="field" hidden="0" width="-1"/>
-          <column name="gml_pos" type="field" hidden="0" width="-1"/>
-          <column name="street" type="field" hidden="0" width="-1"/>
-          <column name="wheelchac_" type="field" hidden="0" width="-1"/>
-          <column name="privatcod_" type="field" hidden="0" width="-1"/>
-          <column name="publiccode" type="field" hidden="0" width="-1"/>
-          <column name="descripti_" type="field" hidden="0" width="-1"/>
-          <column name="tariffzon_" type="field" hidden="0" width="-1"/>
-          <column name="url" type="field" hidden="0" width="-1"/>
-          <column name="fournisse_" type="field" hidden="0" width="-1"/>
-          <column name="dern_maj" type="field" hidden="0" width="-1"/>
-          <column name="nbhab_300m" type="field" hidden="0" width="-1"/>
-          <column name="min_time" type="field" hidden="0" width="-1"/>
-          <column name="max_time" type="field" hidden="0" width="-1"/>
-          <column name="amplitude" type="field" hidden="0" width="-1"/>
-          <column name="nbpas_intr" type="field" hidden="0" width="-1"/>
-          <column name="nbpas_pnte" type="field" hidden="0" width="-1"/>
-          <column name="nbpas_crse" type="field" hidden="0" width="-1"/>
-          <column name="nbpas_tot" type="field" hidden="0" width="-1"/>
-          <column type="actions" hidden="1" width="-1"/>
+          <column name="fid" hidden="0" type="field" width="-1"/>
+          <column name="id" hidden="0" type="field" width="-1"/>
+          <column name="name" hidden="0" type="field" width="-1"/>
+          <column name="latitude" hidden="0" type="field" width="-1"/>
+          <column name="longitude" hidden="0" type="field" width="-1"/>
+          <column name="srsname" hidden="0" type="field" width="-1"/>
+          <column name="postalreg_" hidden="0" type="field" width="-1"/>
+          <column name="siteref" hidden="0" type="field" width="-1"/>
+          <column name="transpmod_" hidden="0" type="field" width="-1"/>
+          <column name="gml_pos" hidden="0" type="field" width="-1"/>
+          <column name="street" hidden="0" type="field" width="-1"/>
+          <column name="wheelchac_" hidden="0" type="field" width="-1"/>
+          <column name="privatcod_" hidden="0" type="field" width="-1"/>
+          <column name="publiccode" hidden="0" type="field" width="-1"/>
+          <column name="descripti_" hidden="0" type="field" width="-1"/>
+          <column name="tariffzon_" hidden="0" type="field" width="-1"/>
+          <column name="url" hidden="0" type="field" width="-1"/>
+          <column name="fournisse_" hidden="0" type="field" width="-1"/>
+          <column name="dern_maj" hidden="0" type="field" width="-1"/>
+          <column name="nbhab_300m" hidden="0" type="field" width="-1"/>
+          <column name="min_time" hidden="0" type="field" width="-1"/>
+          <column name="max_time" hidden="0" type="field" width="-1"/>
+          <column name="amplitude" hidden="0" type="field" width="-1"/>
+          <column name="nbpas_intr" hidden="0" type="field" width="-1"/>
+          <column name="nbpas_pnte" hidden="0" type="field" width="-1"/>
+          <column name="nbpas_crse" hidden="0" type="field" width="-1"/>
+          <column name="nbpas_tot" hidden="0" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -2186,7 +2186,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>fid</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer minScale="1e+08" simplifyDrawingTol="1" maxScale="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" simplifyLocal="1" type="vector" labelsEnabled="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" simplifyDrawingHints="1" simplifyMaxScale="1" readOnly="0" geometry="Line" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0">
+    <maplayer autoRefreshEnabled="0" styleCategories="AllStyleCategories" readOnly="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" simplifyDrawingHints="1" labelsEnabled="0" simplifyAlgorithm="0" geometry="Line" hasScaleBasedVisibilityFlag="0" type="vector" maxScale="0" simplifyDrawingTol="1" simplifyMaxScale="1" autoRefreshTime="0" simplifyLocal="1">
       <extent>
         <xmin>-1.34955288573512489</xmin>
         <ymin>47.23786363904668661</ymin>
@@ -2250,10 +2250,10 @@ def my_form_open(dialog, layer, feature):
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 enableorderby="0" type="singleSymbol" symbollevels="0" forceraster="0">
+      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
         <symbols>
-          <symbol clip_to_extent="1" alpha="1" name="0" force_rhr="0" type="line">
-            <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+          <symbol name="0" clip_to_extent="1" force_rhr="0" alpha="1" type="line">
+            <layer locked="0" class="SimpleLine" enabled="1" pass="0">
               <prop k="capstyle" v="square"/>
               <prop k="customdash" v="5;2"/>
               <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
@@ -2272,9 +2272,9 @@ def my_form_open(dialog, layer, feature):
               <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
+                  <Option name="name" value="" type="QString"/>
                   <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
+                  <Option name="type" value="collection" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -2287,9 +2287,9 @@ def my_form_open(dialog, layer, feature):
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
-      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
         <activeChecks type="StringList">
-          <Option type="QString" value=""/>
+          <Option value="" type="QString"/>
         </activeChecks>
         <checkConfiguration/>
       </geometryOptions>
@@ -2303,24 +2303,24 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias index="0" name="" field="id"/>
+        <alias name="" index="0" field="id"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default field="id" applyOnUpdate="0" expression=""/>
+        <default expression="" applyOnUpdate="0" field="id"/>
       </defaults>
       <constraints>
-        <constraint notnull_strength="0" field="id" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="id" exp_strength="0" notnull_strength="0"/>
       </constraints>
       <constraintExpressions>
         <constraint exp="" field="id" desc=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
         <columns/>
       </attributetableconfig>
       <conditionalstyles>
@@ -2340,7 +2340,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression></previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer minScale="1e+08" simplifyDrawingTol="1" maxScale="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" simplifyLocal="1" type="vector" labelsEnabled="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" simplifyDrawingHints="1" simplifyMaxScale="1" readOnly="0" geometry="Line" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0">
+    <maplayer autoRefreshEnabled="0" styleCategories="AllStyleCategories" readOnly="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" simplifyDrawingHints="1" labelsEnabled="0" simplifyAlgorithm="0" geometry="Line" hasScaleBasedVisibilityFlag="0" type="vector" maxScale="0" simplifyDrawingTol="1" simplifyMaxScale="1" autoRefreshTime="0" simplifyLocal="1">
       <extent>
         <xmin>-151360.23298996681114659</xmin>
         <ymin>5980877.01377010904252529</ymin>
@@ -2355,7 +2355,7 @@ def my_form_open(dialog, layer, feature):
       <layername>Zone_30</layername>
       <srs>
         <spatialrefsys>
-          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
           <srsid>3857</srsid>
           <srid>3857</srid>
           <authid>EPSG:3857</authid>
@@ -2397,7 +2397,7 @@ def my_form_open(dialog, layer, feature):
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial maxy="0" minx="0" maxx="0" miny="0" minz="0" dimensions="2" maxz="0" crs=""/>
+          <spatial dimensions="2" miny="0" maxy="0" maxz="0" crs="" minx="0" maxx="0" minz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -2421,10 +2421,10 @@ def my_form_open(dialog, layer, feature):
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 enableorderby="0" type="singleSymbol" symbollevels="0" forceraster="0">
+      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
         <symbols>
-          <symbol clip_to_extent="1" alpha="1" name="0" force_rhr="0" type="line">
-            <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+          <symbol name="0" clip_to_extent="1" force_rhr="0" alpha="1" type="line">
+            <layer locked="0" class="SimpleLine" enabled="1" pass="0">
               <prop k="capstyle" v="square"/>
               <prop k="customdash" v="5;2"/>
               <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
@@ -2443,9 +2443,9 @@ def my_form_open(dialog, layer, feature):
               <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
+                  <Option name="name" value="" type="QString"/>
                   <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
+                  <Option name="type" value="collection" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -2455,7 +2455,7 @@ def my_form_open(dialog, layer, feature):
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property key="embeddedWidgets/count" value="0"/>
+        <property value="0" key="embeddedWidgets/count"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
@@ -2463,21 +2463,21 @@ def my_form_open(dialog, layer, feature):
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory sizeType="MM" minimumSize="0" maxScaleDenominator="1e+08" diagramOrientation="Up" width="15" penWidth="0" opacity="1" rotationOffset="270" backgroundColor="#ffffff" lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" penColor="#000000" scaleDependency="Area" penAlpha="255" minScaleDenominator="0" scaleBasedVisibility="0" backgroundAlpha="255" height="15" enabled="0" lineSizeType="MM" sizeScale="3x:0,0,0,0,0,0" labelPlacementMethod="XHeight">
-          <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+        <DiagramCategory opacity="1" lineSizeScale="3x:0,0,0,0,0,0" scaleBasedVisibility="0" sizeScale="3x:0,0,0,0,0,0" height="15" scaleDependency="Area" labelPlacementMethod="XHeight" diagramOrientation="Up" penWidth="0" minimumSize="0" rotationOffset="270" sizeType="MM" barWidth="5" width="15" minScaleDenominator="0" maxScaleDenominator="1e+08" lineSizeType="MM" backgroundColor="#ffffff" penAlpha="255" backgroundAlpha="255" penColor="#000000" enabled="0">
+          <fontProperties style="" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0"/>
           <attribute label="" field="" color="#000000"/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings obstacle="0" showAll="1" placement="2" linePlacementFlags="18" priority="0" zIndex="0" dist="0">
+      <DiagramLayerSettings placement="2" linePlacementFlags="18" priority="0" dist="0" showAll="1" zIndex="0" obstacle="0">
         <properties>
           <Option type="Map">
-            <Option name="name" type="QString" value=""/>
+            <Option name="name" value="" type="QString"/>
             <Option name="properties"/>
-            <Option name="type" type="QString" value="collection"/>
+            <Option name="type" value="collection" type="QString"/>
           </Option>
         </properties>
       </DiagramLayerSettings>
-      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
         <activeChecks/>
         <checkConfiguration/>
       </geometryOptions>
@@ -2498,18 +2498,18 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias index="0" name="" field="id"/>
-        <alias index="1" name="" field="Descriptio"/>
+        <alias name="" index="0" field="id"/>
+        <alias name="" index="1" field="Descriptio"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default field="id" applyOnUpdate="0" expression=""/>
-        <default field="Descriptio" applyOnUpdate="0" expression=""/>
+        <default expression="" applyOnUpdate="0" field="id"/>
+        <default expression="" applyOnUpdate="0" field="Descriptio"/>
       </defaults>
       <constraints>
-        <constraint notnull_strength="0" field="id" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="Descriptio" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="id" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="Descriptio" exp_strength="0" notnull_strength="0"/>
       </constraints>
       <constraintExpressions>
         <constraint exp="" field="id" desc=""/>
@@ -2517,13 +2517,13 @@ def my_form_open(dialog, layer, feature):
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
         <columns>
-          <column name="id" type="field" hidden="0" width="-1"/>
-          <column name="Descriptio" type="field" hidden="0" width="-1"/>
-          <column type="actions" hidden="1" width="-1"/>
+          <column name="id" hidden="0" type="field" width="-1"/>
+          <column name="Descriptio" hidden="0" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -2564,7 +2564,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>id</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer minScale="1e+08" simplifyDrawingTol="1" maxScale="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" simplifyLocal="1" type="vector" labelsEnabled="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" simplifyDrawingHints="1" simplifyMaxScale="1" readOnly="0" geometry="Line" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0">
+    <maplayer autoRefreshEnabled="0" styleCategories="AllStyleCategories" readOnly="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" simplifyDrawingHints="1" labelsEnabled="0" simplifyAlgorithm="0" geometry="Line" hasScaleBasedVisibilityFlag="0" type="vector" maxScale="0" simplifyDrawingTol="1" simplifyMaxScale="1" autoRefreshTime="0" simplifyLocal="1">
       <extent>
         <xmin>-1.34900220218923272</xmin>
         <ymin>47.23655256658398827</ymin>
@@ -2621,7 +2621,7 @@ def my_form_open(dialog, layer, feature):
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial maxy="0" minx="0" maxx="0" miny="0" minz="0" dimensions="2" maxz="0" crs=""/>
+          <spatial dimensions="2" miny="0" maxy="0" maxz="0" crs="" minx="0" maxx="0" minz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -2645,10 +2645,10 @@ def my_form_open(dialog, layer, feature):
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 enableorderby="0" type="singleSymbol" symbollevels="0" forceraster="0">
+      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
         <symbols>
-          <symbol clip_to_extent="1" alpha="1" name="0" force_rhr="0" type="line">
-            <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+          <symbol name="0" clip_to_extent="1" force_rhr="0" alpha="1" type="line">
+            <layer locked="0" class="SimpleLine" enabled="1" pass="0">
               <prop k="capstyle" v="square"/>
               <prop k="customdash" v="5;2"/>
               <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
@@ -2667,9 +2667,9 @@ def my_form_open(dialog, layer, feature):
               <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
+                  <Option name="name" value="" type="QString"/>
                   <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
+                  <Option name="type" value="collection" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -2679,7 +2679,7 @@ def my_form_open(dialog, layer, feature):
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property key="embeddedWidgets/count" value="0"/>
+        <property value="0" key="embeddedWidgets/count"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
@@ -2687,21 +2687,21 @@ def my_form_open(dialog, layer, feature):
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory sizeType="MM" minimumSize="0" maxScaleDenominator="1e+08" diagramOrientation="Up" width="15" penWidth="0" opacity="1" rotationOffset="270" backgroundColor="#ffffff" lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" penColor="#000000" scaleDependency="Area" penAlpha="255" minScaleDenominator="0" scaleBasedVisibility="0" backgroundAlpha="255" height="15" enabled="0" lineSizeType="MM" sizeScale="3x:0,0,0,0,0,0" labelPlacementMethod="XHeight">
-          <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+        <DiagramCategory opacity="1" lineSizeScale="3x:0,0,0,0,0,0" scaleBasedVisibility="0" sizeScale="3x:0,0,0,0,0,0" height="15" scaleDependency="Area" labelPlacementMethod="XHeight" diagramOrientation="Up" penWidth="0" minimumSize="0" rotationOffset="270" sizeType="MM" barWidth="5" width="15" minScaleDenominator="0" maxScaleDenominator="1e+08" lineSizeType="MM" backgroundColor="#ffffff" penAlpha="255" backgroundAlpha="255" penColor="#000000" enabled="0">
+          <fontProperties style="" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0"/>
           <attribute label="" field="" color="#000000"/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings obstacle="0" showAll="1" placement="2" linePlacementFlags="18" priority="0" zIndex="0" dist="0">
+      <DiagramLayerSettings placement="2" linePlacementFlags="18" priority="0" dist="0" showAll="1" zIndex="0" obstacle="0">
         <properties>
           <Option type="Map">
-            <Option name="name" type="QString" value=""/>
+            <Option name="name" value="" type="QString"/>
             <Option name="properties"/>
-            <Option name="type" type="QString" value="collection"/>
+            <Option name="type" value="collection" type="QString"/>
           </Option>
         </properties>
       </DiagramLayerSettings>
-      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
         <activeChecks/>
         <checkConfiguration/>
       </geometryOptions>
@@ -2715,27 +2715,27 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias index="0" name="" field="id"/>
+        <alias name="" index="0" field="id"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default field="id" applyOnUpdate="0" expression=""/>
+        <default expression="" applyOnUpdate="0" field="id"/>
       </defaults>
       <constraints>
-        <constraint notnull_strength="0" field="id" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="id" exp_strength="0" notnull_strength="0"/>
       </constraints>
       <constraintExpressions>
         <constraint exp="" field="id" desc=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
         <columns>
-          <column name="id" type="field" hidden="0" width="-1"/>
-          <column type="actions" hidden="1" width="-1"/>
+          <column name="id" hidden="0" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -2774,7 +2774,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>id</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer minScale="1e+08" simplifyDrawingTol="1" maxScale="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" simplifyLocal="1" type="vector" labelsEnabled="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" simplifyDrawingHints="0" simplifyMaxScale="1" readOnly="0" geometry="Point" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0">
+    <maplayer autoRefreshEnabled="0" styleCategories="AllStyleCategories" readOnly="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" simplifyDrawingHints="0" labelsEnabled="0" simplifyAlgorithm="0" geometry="Point" hasScaleBasedVisibilityFlag="0" type="vector" maxScale="0" simplifyDrawingTol="1" simplifyMaxScale="1" autoRefreshTime="0" simplifyLocal="1">
       <extent>
         <xmin>-1.35099188424646832</xmin>
         <ymin>47.23544121254234085</ymin>
@@ -2831,7 +2831,7 @@ def my_form_open(dialog, layer, feature):
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial maxy="0" minx="0" maxx="0" miny="0" minz="0" dimensions="2" maxz="0" crs=""/>
+          <spatial dimensions="2" miny="0" maxy="0" maxz="0" crs="" minx="0" maxx="0" minz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -2855,15 +2855,15 @@ def my_form_open(dialog, layer, feature):
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 enableorderby="0" attr="Type_Place" type="categorizedSymbol" symbollevels="0" forceraster="0">
+      <renderer-v2 attr="Type_Place" forceraster="0" type="categorizedSymbol" enableorderby="0" symbollevels="0">
         <categories>
-          <category label="Place Handicapée" symbol="0" render="true" value="Place Handicapée"/>
-          <category label="Place Zone Bleue" symbol="1" render="false" value="Place Zone Bleue"/>
-          <category label="" symbol="2" render="false" value=""/>
+          <category label="Place Handicapée" render="true" value="Place Handicapée" symbol="0"/>
+          <category label="Place Zone Bleue" render="false" value="Place Zone Bleue" symbol="1"/>
+          <category label="" render="false" value="" symbol="2"/>
         </categories>
         <symbols>
-          <symbol clip_to_extent="1" alpha="1" name="0" force_rhr="0" type="marker">
-            <layer class="SimpleMarker" pass="0" locked="0" enabled="1">
+          <symbol name="0" clip_to_extent="1" force_rhr="0" alpha="1" type="marker">
+            <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
               <prop k="angle" v="0"/>
               <prop k="color" v="201,88,105,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
@@ -2884,15 +2884,15 @@ def my_form_open(dialog, layer, feature):
               <prop k="vertical_anchor_point" v="1"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
+                  <Option name="name" value="" type="QString"/>
                   <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
+                  <Option name="type" value="collection" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol clip_to_extent="1" alpha="1" name="1" force_rhr="0" type="marker">
-            <layer class="SimpleMarker" pass="0" locked="0" enabled="1">
+          <symbol name="1" clip_to_extent="1" force_rhr="0" alpha="1" type="marker">
+            <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
               <prop k="angle" v="0"/>
               <prop k="color" v="40,65,226,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
@@ -2913,15 +2913,15 @@ def my_form_open(dialog, layer, feature):
               <prop k="vertical_anchor_point" v="1"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
+                  <Option name="name" value="" type="QString"/>
                   <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
+                  <Option name="type" value="collection" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol clip_to_extent="1" alpha="1" name="2" force_rhr="0" type="marker">
-            <layer class="SimpleMarker" pass="0" locked="0" enabled="1">
+          <symbol name="2" clip_to_extent="1" force_rhr="0" alpha="1" type="marker">
+            <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
               <prop k="angle" v="0"/>
               <prop k="color" v="132,205,119,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
@@ -2942,17 +2942,17 @@ def my_form_open(dialog, layer, feature):
               <prop k="vertical_anchor_point" v="1"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
+                  <Option name="name" value="" type="QString"/>
                   <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
+                  <Option name="type" value="collection" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </symbols>
         <source-symbol>
-          <symbol clip_to_extent="1" alpha="1" name="0" force_rhr="0" type="marker">
-            <layer class="SimpleMarker" pass="0" locked="0" enabled="1">
+          <symbol name="0" clip_to_extent="1" force_rhr="0" alpha="1" type="marker">
+            <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
               <prop k="angle" v="0"/>
               <prop k="color" v="232,113,141,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
@@ -2973,9 +2973,9 @@ def my_form_open(dialog, layer, feature):
               <prop k="vertical_anchor_point" v="1"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
+                  <Option name="name" value="" type="QString"/>
                   <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
+                  <Option name="type" value="collection" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -2985,8 +2985,8 @@ def my_form_open(dialog, layer, feature):
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property key="QFieldSync/action" value="no_action"/>
-        <property key="embeddedWidgets/count" value="0"/>
+        <property value="no_action" key="QFieldSync/action"/>
+        <property value="0" key="embeddedWidgets/count"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
@@ -2994,21 +2994,21 @@ def my_form_open(dialog, layer, feature):
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Pie">
-        <DiagramCategory sizeType="MM" minimumSize="0" maxScaleDenominator="1e+08" diagramOrientation="Up" width="15" penWidth="0" opacity="1" rotationOffset="270" backgroundColor="#ffffff" lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" penColor="#000000" scaleDependency="Area" penAlpha="255" minScaleDenominator="0" scaleBasedVisibility="0" backgroundAlpha="255" height="15" enabled="0" lineSizeType="MM" sizeScale="3x:0,0,0,0,0,0" labelPlacementMethod="XHeight">
-          <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+        <DiagramCategory opacity="1" lineSizeScale="3x:0,0,0,0,0,0" scaleBasedVisibility="0" sizeScale="3x:0,0,0,0,0,0" height="15" scaleDependency="Area" labelPlacementMethod="XHeight" diagramOrientation="Up" penWidth="0" minimumSize="0" rotationOffset="270" sizeType="MM" barWidth="5" width="15" minScaleDenominator="0" maxScaleDenominator="1e+08" lineSizeType="MM" backgroundColor="#ffffff" penAlpha="255" backgroundAlpha="255" penColor="#000000" enabled="0">
+          <fontProperties style="" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0"/>
           <attribute label="" field="" color="#000000"/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings obstacle="0" showAll="1" placement="0" linePlacementFlags="18" priority="0" zIndex="0" dist="0">
+      <DiagramLayerSettings placement="0" linePlacementFlags="18" priority="0" dist="0" showAll="1" zIndex="0" obstacle="0">
         <properties>
           <Option type="Map">
-            <Option name="name" type="QString" value=""/>
+            <Option name="name" value="" type="QString"/>
             <Option name="properties"/>
-            <Option name="type" type="QString" value="collection"/>
+            <Option name="type" value="collection" type="QString"/>
           </Option>
         </properties>
       </DiagramLayerSettings>
-      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
         <activeChecks/>
         <checkConfiguration/>
       </geometryOptions>
@@ -3024,8 +3024,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="bool" value="false"/>
-                <Option name="UseHtml" type="bool" value="false"/>
+                <Option name="IsMultiline" value="false" type="bool"/>
+                <Option name="UseHtml" value="false" type="bool"/>
               </Option>
             </config>
           </editWidget>
@@ -3036,19 +3036,19 @@ def my_form_open(dialog, layer, feature):
               <Option type="Map">
                 <Option name="map" type="List">
                   <Option type="Map">
-                    <Option name="Place Handicapée" type="QString" value="Place Handicapée"/>
+                    <Option name="Place Handicapée" value="Place Handicapée" type="QString"/>
                   </Option>
                   <Option type="Map">
-                    <Option name="Place Gratuite" type="QString" value="Place Gratuite"/>
+                    <Option name="Place Gratuite" value="Place Gratuite" type="QString"/>
                   </Option>
                   <Option type="Map">
-                    <Option name="Place Zone Bleue" type="QString" value="Place Zone Bleue"/>
+                    <Option name="Place Zone Bleue" value="Place Zone Bleue" type="QString"/>
                   </Option>
                   <Option type="Map">
-                    <Option name="Place Arrêt Minite" type="QString" value="Place Arrêt Minute"/>
+                    <Option name="Place Arrêt Minite" value="Place Arrêt Minute" type="QString"/>
                   </Option>
                   <Option type="Map">
-                    <Option name="Place 2 roues" type="QString" value="Place 2 roues"/>
+                    <Option name="Place 2 roues" value="Place 2 roues" type="QString"/>
                   </Option>
                 </Option>
               </Option>
@@ -3059,35 +3059,35 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="DateTime">
             <config>
               <Option type="Map">
-                <Option name="allow_null" type="bool" value="true"/>
-                <Option name="calendar_popup" type="bool" value="true"/>
-                <Option name="display_format" type="QString" value="yyyy-MM-dd HH:mm:ss"/>
-                <Option name="field_format" type="QString" value="yyyy-MM-dd HH:mm:ss"/>
-                <Option name="field_iso_format" type="bool" value="false"/>
+                <Option name="allow_null" value="true" type="bool"/>
+                <Option name="calendar_popup" value="true" type="bool"/>
+                <Option name="display_format" value="yyyy-MM-dd HH:mm:ss" type="QString"/>
+                <Option name="field_format" value="yyyy-MM-dd HH:mm:ss" type="QString"/>
+                <Option name="field_iso_format" value="false" type="bool"/>
               </Option>
             </config>
           </editWidget>
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias index="0" name="" field="id"/>
-        <alias index="1" name="" field="Nb_place"/>
-        <alias index="2" name="" field="Type_Place"/>
-        <alias index="3" name="" field="Date_Heure"/>
+        <alias name="" index="0" field="id"/>
+        <alias name="" index="1" field="Nb_place"/>
+        <alias name="" index="2" field="Type_Place"/>
+        <alias name="" index="3" field="Date_Heure"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default field="id" applyOnUpdate="0" expression=""/>
-        <default field="Nb_place" applyOnUpdate="0" expression=""/>
-        <default field="Type_Place" applyOnUpdate="0" expression=""/>
-        <default field="Date_Heure" applyOnUpdate="0" expression=""/>
+        <default expression="" applyOnUpdate="0" field="id"/>
+        <default expression="" applyOnUpdate="0" field="Nb_place"/>
+        <default expression="" applyOnUpdate="0" field="Type_Place"/>
+        <default expression="" applyOnUpdate="0" field="Date_Heure"/>
       </defaults>
       <constraints>
-        <constraint notnull_strength="0" field="id" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="Nb_place" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="Type_Place" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="2" field="Date_Heure" constraints="1" exp_strength="0" unique_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="id" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="Nb_place" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="Type_Place" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="1" unique_strength="0" field="Date_Heure" exp_strength="0" notnull_strength="2"/>
       </constraints>
       <constraintExpressions>
         <constraint exp="" field="id" desc=""/>
@@ -3097,15 +3097,15 @@ def my_form_open(dialog, layer, feature):
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
         <columns>
-          <column name="id" type="field" hidden="0" width="-1"/>
-          <column name="Nb_place" type="field" hidden="0" width="-1"/>
-          <column name="Type_Place" type="field" hidden="0" width="-1"/>
-          <column name="Date_Heure" type="field" hidden="0" width="-1"/>
-          <column type="actions" hidden="1" width="-1"/>
+          <column name="id" hidden="0" type="field" width="-1"/>
+          <column name="Nb_place" hidden="0" type="field" width="-1"/>
+          <column name="Type_Place" hidden="0" type="field" width="-1"/>
+          <column name="Date_Heure" hidden="0" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -3150,7 +3150,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>id</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer minScale="1e+08" simplifyDrawingTol="1" maxScale="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" simplifyLocal="1" type="vector" labelsEnabled="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" simplifyDrawingHints="1" simplifyMaxScale="1" readOnly="0" geometry="Line" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0">
+    <maplayer autoRefreshEnabled="0" styleCategories="AllStyleCategories" readOnly="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" simplifyDrawingHints="1" labelsEnabled="0" simplifyAlgorithm="0" geometry="Line" hasScaleBasedVisibilityFlag="0" type="vector" maxScale="0" simplifyDrawingTol="1" simplifyMaxScale="1" autoRefreshTime="0" simplifyLocal="1">
       <extent>
         <xmin>-151904.51795327750733122</xmin>
         <ymin>5980309.08999987039715052</ymin>
@@ -3165,7 +3165,7 @@ def my_form_open(dialog, layer, feature):
       <layername>couche_piste_cyclable</layername>
       <srs>
         <spatialrefsys>
-          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
           <srsid>3857</srsid>
           <srid>3857</srid>
           <authid>EPSG:3857</authid>
@@ -3207,7 +3207,7 @@ def my_form_open(dialog, layer, feature):
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial maxy="0" minx="0" maxx="0" miny="0" minz="0" dimensions="2" maxz="0" crs=""/>
+          <spatial dimensions="2" miny="0" maxy="0" maxz="0" crs="" minx="0" maxx="0" minz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -3231,10 +3231,10 @@ def my_form_open(dialog, layer, feature):
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 enableorderby="0" type="singleSymbol" symbollevels="0" forceraster="0">
+      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
         <symbols>
-          <symbol clip_to_extent="1" alpha="1" name="0" force_rhr="0" type="line">
-            <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+          <symbol name="0" clip_to_extent="1" force_rhr="0" alpha="1" type="line">
+            <layer locked="0" class="SimpleLine" enabled="1" pass="0">
               <prop k="capstyle" v="square"/>
               <prop k="customdash" v="5;2"/>
               <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
@@ -3253,9 +3253,9 @@ def my_form_open(dialog, layer, feature):
               <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
+                  <Option name="name" value="" type="QString"/>
                   <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
+                  <Option name="type" value="collection" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -3265,8 +3265,8 @@ def my_form_open(dialog, layer, feature):
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property key="QFieldSync/action" value="no_action"/>
-        <property key="embeddedWidgets/count" value="0"/>
+        <property value="no_action" key="QFieldSync/action"/>
+        <property value="0" key="embeddedWidgets/count"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
@@ -3274,21 +3274,21 @@ def my_form_open(dialog, layer, feature):
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory sizeType="MM" minimumSize="0" maxScaleDenominator="1e+08" diagramOrientation="Up" width="15" penWidth="0" opacity="1" rotationOffset="270" backgroundColor="#ffffff" lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" penColor="#000000" scaleDependency="Area" penAlpha="255" minScaleDenominator="0" scaleBasedVisibility="0" backgroundAlpha="255" height="15" enabled="0" lineSizeType="MM" sizeScale="3x:0,0,0,0,0,0" labelPlacementMethod="XHeight">
-          <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+        <DiagramCategory opacity="1" lineSizeScale="3x:0,0,0,0,0,0" scaleBasedVisibility="0" sizeScale="3x:0,0,0,0,0,0" height="15" scaleDependency="Area" labelPlacementMethod="XHeight" diagramOrientation="Up" penWidth="0" minimumSize="0" rotationOffset="270" sizeType="MM" barWidth="5" width="15" minScaleDenominator="0" maxScaleDenominator="1e+08" lineSizeType="MM" backgroundColor="#ffffff" penAlpha="255" backgroundAlpha="255" penColor="#000000" enabled="0">
+          <fontProperties style="" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0"/>
           <attribute label="" field="" color="#000000"/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings obstacle="0" showAll="1" placement="2" linePlacementFlags="18" priority="0" zIndex="0" dist="0">
+      <DiagramLayerSettings placement="2" linePlacementFlags="18" priority="0" dist="0" showAll="1" zIndex="0" obstacle="0">
         <properties>
           <Option type="Map">
-            <Option name="name" type="QString" value=""/>
+            <Option name="name" value="" type="QString"/>
             <Option name="properties"/>
-            <Option name="type" type="QString" value="collection"/>
+            <Option name="type" value="collection" type="QString"/>
           </Option>
         </properties>
       </DiagramLayerSettings>
-      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
         <activeChecks/>
         <checkConfiguration/>
       </geometryOptions>
@@ -3297,8 +3297,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="bool" value="false"/>
-                <Option name="UseHtml" type="bool" value="false"/>
+                <Option name="IsMultiline" value="false" type="bool"/>
+                <Option name="UseHtml" value="false" type="bool"/>
               </Option>
             </config>
           </editWidget>
@@ -3307,8 +3307,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="bool" value="false"/>
-                <Option name="UseHtml" type="bool" value="false"/>
+                <Option name="IsMultiline" value="false" type="bool"/>
+                <Option name="UseHtml" value="false" type="bool"/>
               </Option>
             </config>
           </editWidget>
@@ -3317,8 +3317,8 @@ def my_form_open(dialog, layer, feature):
           <editWidget type="TextEdit">
             <config>
               <Option type="Map">
-                <Option name="IsMultiline" type="bool" value="false"/>
-                <Option name="UseHtml" type="bool" value="false"/>
+                <Option name="IsMultiline" value="false" type="bool"/>
+                <Option name="UseHtml" value="false" type="bool"/>
               </Option>
             </config>
           </editWidget>
@@ -3332,24 +3332,24 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias index="0" name="" field="id"/>
-        <alias index="1" name="" field="NumPiste"/>
-        <alias index="2" name="" field="Descriptio"/>
-        <alias index="3" name="" field="Heure"/>
+        <alias name="" index="0" field="id"/>
+        <alias name="" index="1" field="NumPiste"/>
+        <alias name="" index="2" field="Descriptio"/>
+        <alias name="" index="3" field="Heure"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default field="id" applyOnUpdate="0" expression=""/>
-        <default field="NumPiste" applyOnUpdate="0" expression=""/>
-        <default field="Descriptio" applyOnUpdate="0" expression=""/>
-        <default field="Heure" applyOnUpdate="0" expression=""/>
+        <default expression="" applyOnUpdate="0" field="id"/>
+        <default expression="" applyOnUpdate="0" field="NumPiste"/>
+        <default expression="" applyOnUpdate="0" field="Descriptio"/>
+        <default expression="" applyOnUpdate="0" field="Heure"/>
       </defaults>
       <constraints>
-        <constraint notnull_strength="0" field="id" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="NumPiste" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="Descriptio" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="Heure" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="id" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="NumPiste" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="Descriptio" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="Heure" exp_strength="0" notnull_strength="0"/>
       </constraints>
       <constraintExpressions>
         <constraint exp="" field="id" desc=""/>
@@ -3359,15 +3359,15 @@ def my_form_open(dialog, layer, feature):
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
         <columns>
-          <column name="id" type="field" hidden="0" width="-1"/>
-          <column name="NumPiste" type="field" hidden="0" width="-1"/>
-          <column name="Descriptio" type="field" hidden="0" width="-1"/>
-          <column type="actions" hidden="1" width="-1"/>
-          <column name="Heure" type="field" hidden="0" width="-1"/>
+          <column name="id" hidden="0" type="field" width="-1"/>
+          <column name="NumPiste" hidden="0" type="field" width="-1"/>
+          <column name="Descriptio" hidden="0" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
+          <column name="Heure" hidden="0" type="field" width="-1"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -3412,7 +3412,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>id</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer minScale="1e+08" simplifyDrawingTol="1" maxScale="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" simplifyLocal="1" type="vector" labelsEnabled="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" simplifyDrawingHints="1" simplifyMaxScale="1" readOnly="0" geometry="Polygon" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0">
+    <maplayer autoRefreshEnabled="0" styleCategories="AllStyleCategories" readOnly="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" simplifyDrawingHints="1" labelsEnabled="0" simplifyAlgorithm="0" geometry="Polygon" hasScaleBasedVisibilityFlag="0" type="vector" maxScale="0" simplifyDrawingTol="1" simplifyMaxScale="1" autoRefreshTime="0" simplifyLocal="1">
       <extent>
         <xmin>-150852.65455682255560532</xmin>
         <ymin>5980568.03940453752875328</ymin>
@@ -3427,7 +3427,7 @@ def my_form_open(dialog, layer, feature):
       <layername>couche_polygone_parking</layername>
       <srs>
         <spatialrefsys>
-          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0 +lon_0=0 +x_0=0 +y_0=0 +k=1 +units=m +nadgrids=@null +wktext +no_defs</proj4>
           <srsid>3857</srsid>
           <srid>3857</srid>
           <authid>EPSG:3857</authid>
@@ -3469,7 +3469,7 @@ def my_form_open(dialog, layer, feature):
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial maxy="0" minx="0" maxx="0" miny="0" minz="0" dimensions="2" maxz="0" crs=""/>
+          <spatial dimensions="2" miny="0" maxy="0" maxz="0" crs="" minx="0" maxx="0" minz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -3493,16 +3493,16 @@ def my_form_open(dialog, layer, feature):
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 enableorderby="0" attr="TypParking" type="categorizedSymbol" symbollevels="0" forceraster="0">
+      <renderer-v2 attr="TypParking" forceraster="0" type="categorizedSymbol" enableorderby="0" symbollevels="0">
         <categories>
-          <category label="Parking Arret minute" symbol="0" render="true" value="Parking Arret minute"/>
-          <category label="Parking Bleue" symbol="1" render="true" value="Parking Bleue"/>
-          <category label="Parking gratuit" symbol="2" render="true" value="Parking gratuit"/>
-          <category label="" symbol="3" render="true" value=""/>
+          <category label="Parking Arret minute" render="true" value="Parking Arret minute" symbol="0"/>
+          <category label="Parking Bleue" render="true" value="Parking Bleue" symbol="1"/>
+          <category label="Parking gratuit" render="true" value="Parking gratuit" symbol="2"/>
+          <category label="" render="true" value="" symbol="3"/>
         </categories>
         <symbols>
-          <symbol clip_to_extent="1" alpha="1" name="0" force_rhr="0" type="fill">
-            <layer class="SimpleFill" pass="0" locked="0" enabled="1">
+          <symbol name="0" clip_to_extent="1" force_rhr="0" alpha="1" type="fill">
+            <layer locked="0" class="SimpleFill" enabled="1" pass="0">
               <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="color" v="209,220,123,255"/>
               <prop k="joinstyle" v="bevel"/>
@@ -3516,15 +3516,15 @@ def my_form_open(dialog, layer, feature):
               <prop k="style" v="solid"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
+                  <Option name="name" value="" type="QString"/>
                   <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
+                  <Option name="type" value="collection" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol clip_to_extent="1" alpha="1" name="1" force_rhr="0" type="fill">
-            <layer class="SimpleFill" pass="0" locked="0" enabled="1">
+          <symbol name="1" clip_to_extent="1" force_rhr="0" alpha="1" type="fill">
+            <layer locked="0" class="SimpleFill" enabled="1" pass="0">
               <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="color" v="95,82,216,255"/>
               <prop k="joinstyle" v="bevel"/>
@@ -3538,15 +3538,15 @@ def my_form_open(dialog, layer, feature):
               <prop k="style" v="solid"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
+                  <Option name="name" value="" type="QString"/>
                   <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
+                  <Option name="type" value="collection" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol clip_to_extent="1" alpha="1" name="2" force_rhr="0" type="fill">
-            <layer class="SimpleFill" pass="0" locked="0" enabled="1">
+          <symbol name="2" clip_to_extent="1" force_rhr="0" alpha="1" type="fill">
+            <layer locked="0" class="SimpleFill" enabled="1" pass="0">
               <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="color" v="239,29,109,255"/>
               <prop k="joinstyle" v="bevel"/>
@@ -3560,15 +3560,15 @@ def my_form_open(dialog, layer, feature):
               <prop k="style" v="solid"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
+                  <Option name="name" value="" type="QString"/>
                   <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
+                  <Option name="type" value="collection" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
-          <symbol clip_to_extent="1" alpha="1" name="3" force_rhr="0" type="fill">
-            <layer class="SimpleFill" pass="0" locked="0" enabled="1">
+          <symbol name="3" clip_to_extent="1" force_rhr="0" alpha="1" type="fill">
+            <layer locked="0" class="SimpleFill" enabled="1" pass="0">
               <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="color" v="44,232,160,255"/>
               <prop k="joinstyle" v="bevel"/>
@@ -3582,17 +3582,17 @@ def my_form_open(dialog, layer, feature):
               <prop k="style" v="solid"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
+                  <Option name="name" value="" type="QString"/>
                   <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
+                  <Option name="type" value="collection" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
           </symbol>
         </symbols>
         <source-symbol>
-          <symbol clip_to_extent="1" alpha="1" name="0" force_rhr="0" type="fill">
-            <layer class="SimpleFill" pass="0" locked="0" enabled="1">
+          <symbol name="0" clip_to_extent="1" force_rhr="0" alpha="1" type="fill">
+            <layer locked="0" class="SimpleFill" enabled="1" pass="0">
               <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <prop k="color" v="243,166,178,255"/>
               <prop k="joinstyle" v="bevel"/>
@@ -3606,9 +3606,9 @@ def my_form_open(dialog, layer, feature):
               <prop k="style" v="solid"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
+                  <Option name="name" value="" type="QString"/>
                   <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
+                  <Option name="type" value="collection" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -3618,8 +3618,8 @@ def my_form_open(dialog, layer, feature):
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property key="QFieldSync/action" value="no_action"/>
-        <property key="embeddedWidgets/count" value="0"/>
+        <property value="no_action" key="QFieldSync/action"/>
+        <property value="0" key="embeddedWidgets/count"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
@@ -3627,21 +3627,21 @@ def my_form_open(dialog, layer, feature):
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory sizeType="MM" minimumSize="0" maxScaleDenominator="1e+08" diagramOrientation="Up" width="15" penWidth="0" opacity="1" rotationOffset="270" backgroundColor="#ffffff" lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" penColor="#000000" scaleDependency="Area" penAlpha="255" minScaleDenominator="0" scaleBasedVisibility="0" backgroundAlpha="255" height="15" enabled="0" lineSizeType="MM" sizeScale="3x:0,0,0,0,0,0" labelPlacementMethod="XHeight">
-          <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+        <DiagramCategory opacity="1" lineSizeScale="3x:0,0,0,0,0,0" scaleBasedVisibility="0" sizeScale="3x:0,0,0,0,0,0" height="15" scaleDependency="Area" labelPlacementMethod="XHeight" diagramOrientation="Up" penWidth="0" minimumSize="0" rotationOffset="270" sizeType="MM" barWidth="5" width="15" minScaleDenominator="0" maxScaleDenominator="1e+08" lineSizeType="MM" backgroundColor="#ffffff" penAlpha="255" backgroundAlpha="255" penColor="#000000" enabled="0">
+          <fontProperties style="" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0"/>
           <attribute label="" field="" color="#000000"/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings obstacle="0" showAll="1" placement="1" linePlacementFlags="18" priority="0" zIndex="0" dist="0">
+      <DiagramLayerSettings placement="1" linePlacementFlags="18" priority="0" dist="0" showAll="1" zIndex="0" obstacle="0">
         <properties>
           <Option type="Map">
-            <Option name="name" type="QString" value=""/>
+            <Option name="name" value="" type="QString"/>
             <Option name="properties"/>
-            <Option name="type" type="QString" value="collection"/>
+            <Option name="type" value="collection" type="QString"/>
           </Option>
         </properties>
       </DiagramLayerSettings>
-      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
         <activeChecks/>
         <checkConfiguration/>
       </geometryOptions>
@@ -3659,13 +3659,13 @@ def my_form_open(dialog, layer, feature):
               <Option type="Map">
                 <Option name="map" type="List">
                   <Option type="Map">
-                    <Option name="Parking gratuit" type="QString" value="Parking gratuit"/>
+                    <Option name="Parking gratuit" value="Parking gratuit" type="QString"/>
                   </Option>
                   <Option type="Map">
-                    <Option name="Parking Bleue" type="QString" value="Parking Bleue"/>
+                    <Option name="Parking Bleue" value="Parking Bleue" type="QString"/>
                   </Option>
                   <Option type="Map">
-                    <Option name="Parking Arret minute" type="QString" value="Parking Arret minute"/>
+                    <Option name="Parking Arret minute" value="Parking Arret minute" type="QString"/>
                   </Option>
                 </Option>
               </Option>
@@ -3688,24 +3688,24 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias index="0" name="" field="id"/>
-        <alias index="1" name="" field="TypParking"/>
-        <alias index="2" name="" field="Nb_Place"/>
-        <alias index="3" name="" field="DateHeure"/>
+        <alias name="" index="0" field="id"/>
+        <alias name="" index="1" field="TypParking"/>
+        <alias name="" index="2" field="Nb_Place"/>
+        <alias name="" index="3" field="DateHeure"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default field="id" applyOnUpdate="0" expression=""/>
-        <default field="TypParking" applyOnUpdate="0" expression=""/>
-        <default field="Nb_Place" applyOnUpdate="0" expression=""/>
-        <default field="DateHeure" applyOnUpdate="0" expression=""/>
+        <default expression="" applyOnUpdate="0" field="id"/>
+        <default expression="" applyOnUpdate="0" field="TypParking"/>
+        <default expression="" applyOnUpdate="0" field="Nb_Place"/>
+        <default expression="" applyOnUpdate="0" field="DateHeure"/>
       </defaults>
       <constraints>
-        <constraint notnull_strength="0" field="id" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="TypParking" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="Nb_Place" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="DateHeure" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="id" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="TypParking" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="Nb_Place" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="DateHeure" exp_strength="0" notnull_strength="0"/>
       </constraints>
       <constraintExpressions>
         <constraint exp="" field="id" desc=""/>
@@ -3715,15 +3715,15 @@ def my_form_open(dialog, layer, feature):
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
         <columns>
-          <column name="id" type="field" hidden="0" width="-1"/>
-          <column name="TypParking" type="field" hidden="0" width="-1"/>
-          <column name="Nb_Place" type="field" hidden="0" width="-1"/>
-          <column name="DateHeure" type="field" hidden="0" width="-1"/>
-          <column type="actions" hidden="1" width="-1"/>
+          <column name="id" hidden="0" type="field" width="-1"/>
+          <column name="TypParking" hidden="0" type="field" width="-1"/>
+          <column name="Nb_Place" hidden="0" type="field" width="-1"/>
+          <column name="DateHeure" hidden="0" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -3768,7 +3768,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>id</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer minScale="1e+08" simplifyDrawingTol="1" maxScale="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" simplifyLocal="1" type="vector" labelsEnabled="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" simplifyDrawingHints="0" simplifyMaxScale="1" readOnly="0" geometry="Point" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0">
+    <maplayer autoRefreshEnabled="0" styleCategories="AllStyleCategories" readOnly="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" simplifyDrawingHints="0" labelsEnabled="0" simplifyAlgorithm="0" geometry="Point" hasScaleBasedVisibilityFlag="0" type="vector" maxScale="0" simplifyDrawingTol="1" simplifyMaxScale="1" autoRefreshTime="0" simplifyLocal="1">
       <extent>
         <xmin>-1.36009410666831965</xmin>
         <ymin>47.24566219523431698</ymin>
@@ -3825,7 +3825,7 @@ def my_form_open(dialog, layer, feature):
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial maxy="0" minx="0" maxx="0" miny="0" minz="0" dimensions="2" maxz="0" crs=""/>
+          <spatial dimensions="2" miny="0" maxy="0" maxz="0" crs="" minx="0" maxx="0" minz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -3849,10 +3849,10 @@ def my_form_open(dialog, layer, feature):
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 enableorderby="0" type="singleSymbol" symbollevels="0" forceraster="0">
+      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
         <symbols>
-          <symbol clip_to_extent="1" alpha="1" name="0" force_rhr="0" type="marker">
-            <layer class="SimpleMarker" pass="0" locked="0" enabled="1">
+          <symbol name="0" clip_to_extent="1" force_rhr="0" alpha="1" type="marker">
+            <layer locked="0" class="SimpleMarker" enabled="1" pass="0">
               <prop k="angle" v="0"/>
               <prop k="color" v="72,123,182,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
@@ -3873,9 +3873,9 @@ def my_form_open(dialog, layer, feature):
               <prop k="vertical_anchor_point" v="1"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
+                  <Option name="name" value="" type="QString"/>
                   <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
+                  <Option name="type" value="collection" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -3885,7 +3885,7 @@ def my_form_open(dialog, layer, feature):
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property key="embeddedWidgets/count" value="0"/>
+        <property value="0" key="embeddedWidgets/count"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
@@ -3893,21 +3893,21 @@ def my_form_open(dialog, layer, feature):
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory sizeType="MM" minimumSize="0" maxScaleDenominator="1e+08" diagramOrientation="Up" width="15" penWidth="0" opacity="1" rotationOffset="270" backgroundColor="#ffffff" lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" penColor="#000000" scaleDependency="Area" penAlpha="255" minScaleDenominator="0" scaleBasedVisibility="0" backgroundAlpha="255" height="15" enabled="0" lineSizeType="MM" sizeScale="3x:0,0,0,0,0,0" labelPlacementMethod="XHeight">
-          <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+        <DiagramCategory opacity="1" lineSizeScale="3x:0,0,0,0,0,0" scaleBasedVisibility="0" sizeScale="3x:0,0,0,0,0,0" height="15" scaleDependency="Area" labelPlacementMethod="XHeight" diagramOrientation="Up" penWidth="0" minimumSize="0" rotationOffset="270" sizeType="MM" barWidth="5" width="15" minScaleDenominator="0" maxScaleDenominator="1e+08" lineSizeType="MM" backgroundColor="#ffffff" penAlpha="255" backgroundAlpha="255" penColor="#000000" enabled="0">
+          <fontProperties style="" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0"/>
           <attribute label="" field="" color="#000000"/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings obstacle="0" showAll="1" placement="0" linePlacementFlags="18" priority="0" zIndex="0" dist="0">
+      <DiagramLayerSettings placement="0" linePlacementFlags="18" priority="0" dist="0" showAll="1" zIndex="0" obstacle="0">
         <properties>
           <Option type="Map">
-            <Option name="name" type="QString" value=""/>
+            <Option name="name" value="" type="QString"/>
             <Option name="properties"/>
-            <Option name="type" type="QString" value="collection"/>
+            <Option name="type" value="collection" type="QString"/>
           </Option>
         </properties>
       </DiagramLayerSettings>
-      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
         <activeChecks/>
         <checkConfiguration/>
       </geometryOptions>
@@ -3928,18 +3928,18 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias index="0" name="" field="id"/>
-        <alias index="1" name="" field="Descriptio"/>
+        <alias name="" index="0" field="id"/>
+        <alias name="" index="1" field="Descriptio"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default field="id" applyOnUpdate="0" expression=""/>
-        <default field="Descriptio" applyOnUpdate="0" expression=""/>
+        <default expression="" applyOnUpdate="0" field="id"/>
+        <default expression="" applyOnUpdate="0" field="Descriptio"/>
       </defaults>
       <constraints>
-        <constraint notnull_strength="0" field="id" constraints="0" exp_strength="0" unique_strength="0"/>
-        <constraint notnull_strength="0" field="Descriptio" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="id" exp_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="Descriptio" exp_strength="0" notnull_strength="0"/>
       </constraints>
       <constraintExpressions>
         <constraint exp="" field="id" desc=""/>
@@ -3947,13 +3947,13 @@ def my_form_open(dialog, layer, feature):
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
         <columns>
-          <column name="id" type="field" hidden="0" width="-1"/>
-          <column name="Descriptio" type="field" hidden="0" width="-1"/>
-          <column type="actions" hidden="1" width="-1"/>
+          <column name="id" hidden="0" type="field" width="-1"/>
+          <column name="Descriptio" hidden="0" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -3994,7 +3994,7 @@ def my_form_open(dialog, layer, feature):
       <previewExpression>id</previewExpression>
       <mapTip></mapTip>
     </maplayer>
-    <maplayer minScale="1e+08" simplifyDrawingTol="1" maxScale="0" autoRefreshTime="0" refreshOnNotifyEnabled="0" simplifyLocal="1" type="vector" labelsEnabled="0" refreshOnNotifyMessage="" styleCategories="AllStyleCategories" simplifyDrawingHints="1" simplifyMaxScale="1" readOnly="0" geometry="Line" autoRefreshEnabled="0" hasScaleBasedVisibilityFlag="0" simplifyAlgorithm="0">
+    <maplayer autoRefreshEnabled="0" styleCategories="AllStyleCategories" readOnly="0" refreshOnNotifyEnabled="0" refreshOnNotifyMessage="" minScale="1e+08" simplifyDrawingHints="1" labelsEnabled="0" simplifyAlgorithm="0" geometry="Line" hasScaleBasedVisibilityFlag="0" type="vector" maxScale="0" simplifyDrawingTol="1" simplifyMaxScale="1" autoRefreshTime="0" simplifyLocal="1">
       <extent>
         <xmin>-1.3849500209635881</xmin>
         <ymin>47.1977968884057475</ymin>
@@ -4051,7 +4051,7 @@ def my_form_open(dialog, layer, feature):
           </spatialrefsys>
         </crs>
         <extent>
-          <spatial maxy="0" minx="0" maxx="0" miny="0" minz="0" dimensions="2" maxz="0" crs=""/>
+          <spatial dimensions="2" miny="0" maxy="0" maxz="0" crs="" minx="0" maxx="0" minz="0"/>
           <temporal>
             <period>
               <start></start>
@@ -4075,10 +4075,10 @@ def my_form_open(dialog, layer, feature):
         <Removable>1</Removable>
         <Searchable>1</Searchable>
       </flags>
-      <renderer-v2 enableorderby="0" type="singleSymbol" symbollevels="0" forceraster="0">
+      <renderer-v2 forceraster="0" type="singleSymbol" enableorderby="0" symbollevels="0">
         <symbols>
-          <symbol clip_to_extent="1" alpha="1" name="0" force_rhr="0" type="line">
-            <layer class="SimpleLine" pass="0" locked="0" enabled="1">
+          <symbol name="0" clip_to_extent="1" force_rhr="0" alpha="1" type="line">
+            <layer locked="0" class="SimpleLine" enabled="1" pass="0">
               <prop k="capstyle" v="square"/>
               <prop k="customdash" v="5;2"/>
               <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
@@ -4097,9 +4097,9 @@ def my_form_open(dialog, layer, feature):
               <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
               <data_defined_properties>
                 <Option type="Map">
-                  <Option name="name" type="QString" value=""/>
+                  <Option name="name" value="" type="QString"/>
                   <Option name="properties"/>
-                  <Option name="type" type="QString" value="collection"/>
+                  <Option name="type" value="collection" type="QString"/>
                 </Option>
               </data_defined_properties>
             </layer>
@@ -4109,7 +4109,7 @@ def my_form_open(dialog, layer, feature):
         <sizescale/>
       </renderer-v2>
       <customproperties>
-        <property key="embeddedWidgets/count" value="0"/>
+        <property value="0" key="embeddedWidgets/count"/>
         <property key="variableNames"/>
         <property key="variableValues"/>
       </customproperties>
@@ -4117,21 +4117,21 @@ def my_form_open(dialog, layer, feature):
       <featureBlendMode>0</featureBlendMode>
       <layerOpacity>1</layerOpacity>
       <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
-        <DiagramCategory sizeType="MM" minimumSize="0" maxScaleDenominator="1e+08" diagramOrientation="Up" width="15" penWidth="0" opacity="1" rotationOffset="270" backgroundColor="#ffffff" lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" penColor="#000000" scaleDependency="Area" penAlpha="255" minScaleDenominator="0" scaleBasedVisibility="0" backgroundAlpha="255" height="15" enabled="0" lineSizeType="MM" sizeScale="3x:0,0,0,0,0,0" labelPlacementMethod="XHeight">
-          <fontProperties description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0" style=""/>
+        <DiagramCategory opacity="1" lineSizeScale="3x:0,0,0,0,0,0" scaleBasedVisibility="0" sizeScale="3x:0,0,0,0,0,0" height="15" scaleDependency="Area" labelPlacementMethod="XHeight" diagramOrientation="Up" penWidth="0" minimumSize="0" rotationOffset="270" sizeType="MM" barWidth="5" width="15" minScaleDenominator="0" maxScaleDenominator="1e+08" lineSizeType="MM" backgroundColor="#ffffff" penAlpha="255" backgroundAlpha="255" penColor="#000000" enabled="0">
+          <fontProperties style="" description="MS Shell Dlg 2,7.8,-1,5,50,0,0,0,0,0"/>
           <attribute label="" field="" color="#000000"/>
         </DiagramCategory>
       </SingleCategoryDiagramRenderer>
-      <DiagramLayerSettings obstacle="0" showAll="1" placement="2" linePlacementFlags="18" priority="0" zIndex="0" dist="0">
+      <DiagramLayerSettings placement="2" linePlacementFlags="18" priority="0" dist="0" showAll="1" zIndex="0" obstacle="0">
         <properties>
           <Option type="Map">
-            <Option name="name" type="QString" value=""/>
+            <Option name="name" value="" type="QString"/>
             <Option name="properties"/>
-            <Option name="type" type="QString" value="collection"/>
+            <Option name="type" value="collection" type="QString"/>
           </Option>
         </properties>
       </DiagramLayerSettings>
-      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+      <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
         <activeChecks/>
         <checkConfiguration/>
       </geometryOptions>
@@ -4145,27 +4145,27 @@ def my_form_open(dialog, layer, feature):
         </field>
       </fieldConfiguration>
       <aliases>
-        <alias index="0" name="" field="rd"/>
+        <alias name="" index="0" field="rd"/>
       </aliases>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <defaults>
-        <default field="rd" applyOnUpdate="0" expression=""/>
+        <default expression="" applyOnUpdate="0" field="rd"/>
       </defaults>
       <constraints>
-        <constraint notnull_strength="0" field="rd" constraints="0" exp_strength="0" unique_strength="0"/>
+        <constraint constraints="0" unique_strength="0" field="rd" exp_strength="0" notnull_strength="0"/>
       </constraints>
       <constraintExpressions>
         <constraint exp="" field="rd" desc=""/>
       </constraintExpressions>
       <expressionfields/>
       <attributeactions>
-        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+        <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
       </attributeactions>
-      <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
+      <attributetableconfig actionWidgetStyle="dropDown" sortOrder="0" sortExpression="">
         <columns>
-          <column name="rd" type="field" hidden="0" width="-1"/>
-          <column type="actions" hidden="1" width="-1"/>
+          <column name="rd" hidden="0" type="field" width="-1"/>
+          <column hidden="1" type="actions" width="-1"/>
         </columns>
       </attributetableconfig>
       <conditionalstyles>
@@ -4223,116 +4223,116 @@ def my_form_open(dialog, layer, feature):
   </layerorder>
   <properties>
     <WMSFees type="QString">conditions unknown</WMSFees>
-    <WFSTLayers>
-      <Update type="QStringList"/>
-      <Delete type="QStringList"/>
-      <Insert type="QStringList"/>
-    </WFSTLayers>
-    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <DegreeFormat type="QString">MU</DegreeFormat>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <WMSImageQuality type="int">90</WMSImageQuality>
+    <PAL>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <SearchMethod type="int">0</SearchMethod>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <TextFormat type="int">0</TextFormat>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+    </PAL>
+    <WMSContactMail type="QString"></WMSContactMail>
+    <Gui>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+    </Gui>
+    <WMSContactPerson type="QString"></WMSContactPerson>
+    <WMSRootName type="QString"></WMSRootName>
+    <WFSUrl type="QString"></WFSUrl>
+    <WMTSLayers>
+      <Layer type="QStringList"/>
+      <Project type="bool">false</Project>
+      <Group type="QStringList"/>
+    </WMTSLayers>
+    <WMSContactOrganization type="QString"></WMSContactOrganization>
     <Paths>
       <Absolute type="bool">false</Absolute>
     </Paths>
-    <WMTSUrl type="QString"></WMTSUrl>
-    <WMSContactMail type="QString"></WMSContactMail>
-    <Legend>
-      <filterByMap type="bool">false</filterByMap>
-    </Legend>
-    <WFSUrl type="QString"></WFSUrl>
-    <WMSContactOrganization type="QString"></WMSContactOrganization>
-    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
-    <WMTSLayers>
-      <Project type="bool">false</Project>
-      <Group type="QStringList"/>
-      <Layer type="QStringList"/>
-    </WMTSLayers>
-    <WMSKeywordList type="QStringList">
-      <value></value>
-    </WMSKeywordList>
-    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
-    <WCSLayers type="QStringList"/>
-    <WMTSPngLayers>
-      <Project type="bool">false</Project>
-      <Group type="QStringList"/>
-      <Layer type="QStringList"/>
-    </WMTSPngLayers>
-    <Measure>
-      <Ellipsoid type="QString">WGS84</Ellipsoid>
-    </Measure>
-    <WMSContactPerson type="QString"></WMSContactPerson>
-    <WMSServiceTitle type="QString"></WMSServiceTitle>
-    <PAL>
-      <SearchMethod type="int">0</SearchMethod>
-      <CandidatesPolygon type="int">30</CandidatesPolygon>
-      <CandidatesLine type="int">50</CandidatesLine>
-      <ShowingCandidates type="bool">false</ShowingCandidates>
-      <TextFormat type="int">0</TextFormat>
-      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
-      <DrawRectOnly type="bool">false</DrawRectOnly>
-      <CandidatesPoint type="int">16</CandidatesPoint>
-      <ShowingAllLabels type="bool">false</ShowingAllLabels>
-    </PAL>
-    <WMSServiceAbstract type="QString"></WMSServiceAbstract>
-    <Measurement>
-      <AreaUnits type="QString">m2</AreaUnits>
-      <DistanceUnits type="QString">meters</DistanceUnits>
-    </Measurement>
-    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
-    <WMSUrl type="QString"></WMSUrl>
-    <WMSOnlineResource type="QString"></WMSOnlineResource>
-    <WMSRequestDefinedDataSources type="bool">false</WMSRequestDefinedDataSources>
-    <PositionPrecision>
-      <DegreeFormat type="QString">MU</DegreeFormat>
-      <Automatic type="bool">true</Automatic>
-      <DecimalPlaces type="int">2</DecimalPlaces>
-    </PositionPrecision>
-    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
-    <Gui>
-      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
-      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
-      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
-      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
-      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
-      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
-      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
-    </Gui>
-    <WMSContactPosition type="QString"></WMSContactPosition>
     <WMSPrecision type="QString">8</WMSPrecision>
+    <WMSRequestDefinedDataSources type="bool">false</WMSRequestDefinedDataSources>
+    <WMSOnlineResource type="QString"></WMSOnlineResource>
+    <WMSServiceTitle type="QString"></WMSServiceTitle>
     <qfieldsync>
+      <baseMapTheme type="QString"></baseMapTheme>
+      <originalProjectPath type="QString">C:/Users/mchauveau/Documents/Maxime Chauveau/Master Medas/PROJET_SIG_4/QGIS/MCH_PROJET_SIG.qgs</originalProjectPath>
+      <baseMapLayer type="QString">OpenStreetMap_d98b757b_bb13_42c0_b777_623574b8d6bb</baseMapLayer>
+      <baseMapTileSize type="int">1024</baseMapTileSize>
+      <baseMapMupp type="double">10</baseMapMupp>
       <createBaseMap type="int">1</createBaseMap>
       <offlineCopyOnlyAoi type="int">0</offlineCopyOnlyAoi>
-      <baseMapLayer type="QString">OpenStreetMap_d98b757b_bb13_42c0_b777_623574b8d6bb</baseMapLayer>
       <baseMapType type="QString">singleLayer</baseMapType>
-      <baseMapMupp type="double">10</baseMapMupp>
-      <baseMapTileSize type="int">1024</baseMapTileSize>
-      <originalProjectPath type="QString">C:/Users/mchauveau/Documents/Maxime Chauveau/Master Medas/PROJET_SIG_4/QGIS/MCH_PROJET_SIG.qgs</originalProjectPath>
-      <baseMapTheme type="QString"></baseMapTheme>
     </qfieldsync>
-    <WMSRootName type="QString"></WMSRootName>
-    <SpatialRefSys>
-      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
-    </SpatialRefSys>
     <Macros>
       <pythonCode type="QString"></pythonCode>
     </Macros>
-    <WMSDefaultMapUnitsPerMm type="double">1</WMSDefaultMapUnitsPerMm>
-    <WMTSMinScale type="int">5000</WMTSMinScale>
-    <WMSImageQuality type="int">90</WMSImageQuality>
-    <DefaultStyles>
-      <ColorRamp type="QString"></ColorRamp>
-      <Fill type="QString"></Fill>
-      <Line type="QString"></Line>
-      <Opacity type="double">1</Opacity>
-      <Marker type="QString"></Marker>
-      <RandomColors type="bool">true</RandomColors>
-    </DefaultStyles>
-    <WMSContactPhone type="QString"></WMSContactPhone>
-    <WMTSJpegLayers>
+    <SpatialRefSys>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <WMTSPngLayers>
+      <Layer type="QStringList"/>
       <Project type="bool">false</Project>
       <Group type="QStringList"/>
-      <Layer type="QStringList"/>
-    </WMTSJpegLayers>
-    <WFSLayers type="QStringList"/>
+    </WMTSPngLayers>
+    <WMSDefaultMapUnitsPerMm type="double">1</WMSDefaultMapUnitsPerMm>
+    <WMSUrl type="QString"></WMSUrl>
+    <Measure>
+      <Ellipsoid type="QString">WGS84</Ellipsoid>
+    </Measure>
+    <WMSKeywordList type="QStringList">
+      <value></value>
+    </WMSKeywordList>
+    <WMSContactPosition type="QString"></WMSContactPosition>
+    <WMSContactPhone type="QString"></WMSContactPhone>
+    <WMTSMinScale type="int">5000</WMTSMinScale>
+    <WCSLayers type="QStringList"/>
+    <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
     <WCSUrl type="QString"></WCSUrl>
+    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString">m2</AreaUnits>
+    </Measurement>
+    <WFSTLayers>
+      <Delete type="QStringList"/>
+      <Update type="QStringList"/>
+      <Insert type="QStringList"/>
+    </WFSTLayers>
+    <WFSLayers type="QStringList"/>
+    <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <WMTSUrl type="QString"></WMTSUrl>
+    <WMSAccessConstraints type="QString">None</WMSAccessConstraints>
+    <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
+    <DefaultStyles>
+      <Line type="QString"></Line>
+      <Fill type="QString"></Fill>
+      <ColorRamp type="QString"></ColorRamp>
+      <RandomColors type="bool">true</RandomColors>
+      <Marker type="QString"></Marker>
+      <Opacity type="double">1</Opacity>
+    </DefaultStyles>
+    <WMTSJpegLayers>
+      <Layer type="QStringList"/>
+      <Project type="bool">false</Project>
+      <Group type="QStringList"/>
+    </WMTSJpegLayers>
   </properties>
   <visibility-presets/>
   <transformContext/>
